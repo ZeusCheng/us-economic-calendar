@@ -1,0 +1,34 @@
+name: Update US Economic Calendar ICS
+
+on:
+  schedule:
+    # 每天台灣時間 06:20 執行一次；GitHub Actions 使用 UTC
+    - cron: "20 22 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-calendar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Generate calendar
+        run: python scripts/generate_calendar.py
+
+      - name: Commit updated ICS
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Update US economic calendar ICS"
+          file_pattern: "docs/us-economic-calendar.ics docs/index.html"
