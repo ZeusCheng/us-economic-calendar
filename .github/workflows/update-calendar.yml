@@ -1,0 +1,62 @@
+name: Update US Economic Calendar ICS
+
+on:
+  schedule:
+    - cron: "35 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-economic-calendar
+  cancel-in-progress: false
+
+jobs:
+  update-calendar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install --requirement requirements.txt
+
+      - name: Run unit tests
+        run: python -m pytest -q
+
+      - name: Generate and validate calendar
+        run: python scripts/generate_calendar.py
+
+      - name: Verify generated ICS
+        run: |
+          test -s docs/us-economic-calendar.ics
+          grep -q "BEGIN:VCALENDAR" docs/us-economic-calendar.ics
+          grep -q "END:VCALENDAR" docs/us-economic-calendar.ics
+          grep -q "PRODID:-//Roy Cheng//US Economic Calendar v5.0" docs/us-economic-calendar.ics
+          grep -q "FOMC" docs/us-economic-calendar.ics
+
+          # CPI / PPI / NFP are monthly releases and do not necessarily all
+          # appear in the current this-week / next-week rolling window.
+          # Their parsing logic is covered by unit tests instead.
+
+          # Reject the known false FOMC dates produced by the old parser.
+          ! grep -q "DTSTART;TZID=America/New_York:20260703T140000" docs/us-economic-calendar.ics
+          ! grep -q "DTSTART;TZID=America/New_York:20260705T140000" docs/us-economic-calendar.ics
+
+      - name: Commit updated calendar
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/us-economic-calendar.ics docs/index.html
+          git diff --cached --quiet && exit 0
+          git commit -m "Update US economic calendar"
+          git push
