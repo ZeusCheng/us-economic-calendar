@@ -3,7 +3,7 @@ name: Update US Economic Calendar ICS
 on:
   schedule:
     # 06:20 Taiwan time (22:20 UTC on the previous date)
-    - cron: "20 22 * * *"
+    - cron: "20 */6 * * *"
   workflow_dispatch:
 
 permissions:
