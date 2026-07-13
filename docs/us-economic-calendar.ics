@@ -1,553 +1,69 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Roy Cheng//US Economic Calendar v3.3//ZH-TW
+PRODID:-//Roy Cheng//US Economic Calendar v4.0//ZH-TW
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:美國重大經濟數據
-X-WR-CALDESC:CPI、PPI、PCE、NFP、GDP、FOMC 等美國高影響數據
+X-WR-CALDESC:美國四星／五星重要數據；自動去重並正確換
+ 算台灣時間
 X-WR-TIMEZONE:Asia/Taipei
 BEGIN:VEVENT
-UID:2a20d222583744a8873d714d325da48ffd57d499@roy-us-economic-calendar
-X-ROY-KEY:EXISTING:美國 Construction Spending (Construction Put in Plac
- e)
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20260701T100000
-DTEND;TZID=America/New_York:20260701T103000
-SUMMARY:美國 Construction Spending (Construction Put in Place)
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★\n時
- 間以美東時區發布，Apple 行事曆會自動換算台灣時間。
- \n來源網址：https://www.census.gov/economic-indicators/calendar-lis
- tview.html
-URL:https://www.census.gov/economic-indicators/calendar-listview.html
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:美國 Construction Spending (Construction Put in Place)
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:e807cd60661a2c087c20caa738a512e4006cabb3@roy-us-economic-calendar
-X-ROY-KEY:EXISTING:美國 FOMC 利率決議 / Statement
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20260703T140000
-DTEND;TZID=America/New_York:20260703T143000
-SUMMARY:美國 FOMC 利率決議 / Statement
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★\n時
- 間以美東時區發布，Apple 行事曆會自動換算台灣時間。
- \n來源網址：https://www.federalreserve.gov/monetarypolicy/fomccalen
- dars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:美國 FOMC 利率決議 / Statement
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:837ea524d96b8dcc42e128ba0be9b1c9ad42c8d4@roy-us-economic-calendar
-X-ROY-KEY:FOMC
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20260703T140000
-DTEND;TZID=America/New_York:20260703T143000
-SUMMARY:🔴 FOMC 利率決議 ★★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★★\n
- 時間以美東時區發布，Apple 行事曆會自動換算台灣時間
- 。\n來源網址：https://www.federalreserve.gov/monetarypolicy/fomcca
- lendars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 FOMC 利率決議 ★★★★★
-TRIGGER:-PT60M
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 FOMC 利率決議 ★★★★★
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:48cf05bf40704dc5fc8c0531e05747ffff6fa5ad@roy-us-economic-calendar
-X-ROY-KEY:FOMC_PRESS
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20260703T143000
-DTEND;TZID=America/New_York:20260703T150000
-SUMMARY:🔴 Fed 主席記者會 ★★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★★\n
- 時間以美東時區發布，Apple 行事曆會自動換算台灣時間
- 。\n來源網址：https://www.federalreserve.gov/monetarypolicy/fomcca
- lendars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 Fed 主席記者會 ★★★★★
-TRIGGER:-PT60M
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 Fed 主席記者會 ★★★★★
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:6a356dd6f82859dbb976a725e3ea44a271a45193@roy-us-economic-calendar
-X-ROY-KEY:EXISTING:美國 FOMC 利率決議 / Statement
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20260705T140000
-DTEND;TZID=America/New_York:20260705T143000
-SUMMARY:美國 FOMC 利率決議 / Statement
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★\n時
- 間以美東時區發布，Apple 行事曆會自動換算台灣時間。
- \n來源網址：https://www.federalreserve.gov/monetarypolicy/fomccalen
- dars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:美國 FOMC 利率決議 / Statement
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:eb0d39c4765568d1907a82c578096925fed53310@roy-us-economic-calendar
-X-ROY-KEY:FOMC
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20260705T140000
-DTEND;TZID=America/New_York:20260705T143000
-SUMMARY:🔴 FOMC 利率決議 ★★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★★\n
- 時間以美東時區發布，Apple 行事曆會自動換算台灣時間
- 。\n來源網址：https://www.federalreserve.gov/monetarypolicy/fomcca
- lendars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 FOMC 利率決議 ★★★★★
-TRIGGER:-PT60M
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 FOMC 利率決議 ★★★★★
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:927e28676091c0e41fcb815d42916712f08fd34f@roy-us-economic-calendar
-X-ROY-KEY:FOMC_PRESS
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20260705T143000
-DTEND;TZID=America/New_York:20260705T150000
-SUMMARY:🔴 Fed 主席記者會 ★★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★★\n
- 時間以美東時區發布，Apple 行事曆會自動換算台灣時間
- 。\n來源網址：https://www.federalreserve.gov/monetarypolicy/fomcca
- lendars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 Fed 主席記者會 ★★★★★
-TRIGGER:-PT60M
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 Fed 主席記者會 ★★★★★
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:4535d74e6e3b49e72b2e50007afd67b4b5fef4c5@roy-us-economic-calendar
-X-ROY-KEY:EXISTING:美國 FOMC 利率決議 / Statement
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20260706T140000
-DTEND;TZID=America/New_York:20260706T143000
-SUMMARY:美國 FOMC 利率決議 / Statement
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★\n時
- 間以美東時區發布，Apple 行事曆會自動換算台灣時間。
- \n來源網址：https://www.federalreserve.gov/monetarypolicy/fomccalen
- dars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:美國 FOMC 利率決議 / Statement
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:437c759f26ec1d32f2d1946e2296c9b8492ff2d5@roy-us-economic-calendar
-X-ROY-KEY:FOMC
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20260706T140000
-DTEND;TZID=America/New_York:20260706T143000
-SUMMARY:🔴 FOMC 利率決議 ★★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★★\n
- 時間以美東時區發布，Apple 行事曆會自動換算台灣時間
- 。\n來源網址：https://www.federalreserve.gov/monetarypolicy/fomcca
- lendars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 FOMC 利率決議 ★★★★★
-TRIGGER:-PT60M
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 FOMC 利率決議 ★★★★★
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:276622d61991bbd25bfb575f3f8dbd5156cc10f6@roy-us-economic-calendar
-X-ROY-KEY:FOMC_PRESS
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20260706T143000
-DTEND;TZID=America/New_York:20260706T150000
-SUMMARY:🔴 Fed 主席記者會 ★★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★★\n
- 時間以美東時區發布，Apple 行事曆會自動換算台灣時間
- 。\n來源網址：https://www.federalreserve.gov/monetarypolicy/fomcca
- lendars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 Fed 主席記者會 ★★★★★
-TRIGGER:-PT60M
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 Fed 主席記者會 ★★★★★
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:623a1eaaa574da3731d325092f971781d1f55de9@roy-us-economic-calendar
-X-ROY-KEY:TRADE
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20260707T083000
-DTEND;TZID=America/New_York:20260707T090000
-SUMMARY:🟠 美國貿易收支 ★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★\n時
- 間以美東時區發布，Apple 行事曆會自動換算台灣時間。
- \n來源網址：https://www.census.gov/economic-indicators/calendar-lis
- tview.html
-URL:https://www.census.gov/economic-indicators/calendar-listview.html
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🟠 美國貿易收支 ★★★★
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:5dbd5196d28540dbd6ada22e9ab977ca5b933055@roy-us-economic-calendar
-X-ROY-KEY:EXISTING:美國 FOMC 利率決議 / Statement
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20260707T140000
-DTEND;TZID=America/New_York:20260707T143000
-SUMMARY:美國 FOMC 利率決議 / Statement
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★\n時
- 間以美東時區發布，Apple 行事曆會自動換算台灣時間。
- \n來源網址：https://www.federalreserve.gov/monetarypolicy/fomccalen
- dars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:美國 FOMC 利率決議 / Statement
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:9d2fe655beff48d5dd13297c0b9ab0cb06a5fb13@roy-us-economic-calendar
-X-ROY-KEY:FOMC
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20260707T140000
-DTEND;TZID=America/New_York:20260707T143000
-SUMMARY:🔴 FOMC 利率決議 ★★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★★\n
- 時間以美東時區發布，Apple 行事曆會自動換算台灣時間
- 。\n來源網址：https://www.federalreserve.gov/monetarypolicy/fomcca
- lendars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 FOMC 利率決議 ★★★★★
-TRIGGER:-PT60M
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 FOMC 利率決議 ★★★★★
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:052b47c2684d0509fa148bdbfdf54babd455fb36@roy-us-economic-calendar
-X-ROY-KEY:FOMC_PRESS
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20260707T143000
-DTEND;TZID=America/New_York:20260707T150000
-SUMMARY:🔴 Fed 主席記者會 ★★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★★\n
- 時間以美東時區發布，Apple 行事曆會自動換算台灣時間
- 。\n來源網址：https://www.federalreserve.gov/monetarypolicy/fomcca
- lendars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 Fed 主席記者會 ★★★★★
-TRIGGER:-PT60M
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 Fed 主席記者會 ★★★★★
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:7f355e464e6a5e1fc3bd007429ee48d7e23ab0ff@roy-us-economic-calendar
-X-ROY-KEY:EXISTING:美國 FOMC 利率決議 / Statement
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20260708T140000
-DTEND;TZID=America/New_York:20260708T143000
-SUMMARY:美國 FOMC 利率決議 / Statement
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★\n時
- 間以美東時區發布，Apple 行事曆會自動換算台灣時間。
- \n來源網址：https://www.federalreserve.gov/monetarypolicy/fomccalen
- dars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:美國 FOMC 利率決議 / Statement
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:e785f11dcca9fd665b3530cb0b63b1dfc1207ce9@roy-us-economic-calendar
-X-ROY-KEY:FOMC
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20260708T140000
-DTEND;TZID=America/New_York:20260708T143000
-SUMMARY:🔴 FOMC 利率決議 ★★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★★\n
- 時間以美東時區發布，Apple 行事曆會自動換算台灣時間
- 。\n來源網址：https://www.federalreserve.gov/monetarypolicy/fomcca
- lendars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 FOMC 利率決議 ★★★★★
-TRIGGER:-PT60M
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 FOMC 利率決議 ★★★★★
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:72766a413e42303db6e7cf04e8121b2904fe763b@roy-us-economic-calendar
-X-ROY-KEY:FOMC_PRESS
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20260708T143000
-DTEND;TZID=America/New_York:20260708T150000
-SUMMARY:🔴 Fed 主席記者會 ★★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★★\n
- 時間以美東時區發布，Apple 行事曆會自動換算台灣時間
- 。\n來源網址：https://www.federalreserve.gov/monetarypolicy/fomcca
- lendars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 Fed 主席記者會 ★★★★★
-TRIGGER:-PT60M
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 Fed 主席記者會 ★★★★★
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:dcdca8160237a74d9cd0a19331e90a8f7de2a16f@roy-us-economic-calendar
-X-ROY-KEY:EXISTING:美國 FOMC 利率決議 / Statement
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20260709T140000
-DTEND;TZID=America/New_York:20260709T143000
-SUMMARY:美國 FOMC 利率決議 / Statement
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★\n時
- 間以美東時區發布，Apple 行事曆會自動換算台灣時間。
- \n來源網址：https://www.federalreserve.gov/monetarypolicy/fomccalen
- dars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:美國 FOMC 利率決議 / Statement
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:f3c0eaac6134474f9469198e2ee2be211dfcc84c@roy-us-economic-calendar
-X-ROY-KEY:FOMC
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20260709T140000
-DTEND;TZID=America/New_York:20260709T143000
-SUMMARY:🔴 FOMC 利率決議 ★★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★★\n
- 時間以美東時區發布，Apple 行事曆會自動換算台灣時間
- 。\n來源網址：https://www.federalreserve.gov/monetarypolicy/fomcca
- lendars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 FOMC 利率決議 ★★★★★
-TRIGGER:-PT60M
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 FOMC 利率決議 ★★★★★
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fcefb1d4d9d7b40e0fc493d41adaa5fd858c4d44@roy-us-economic-calendar
-X-ROY-KEY:FOMC_PRESS
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20260709T143000
-DTEND;TZID=America/New_York:20260709T150000
-SUMMARY:🔴 Fed 主席記者會 ★★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★★\n
- 時間以美東時區發布，Apple 行事曆會自動換算台灣時間
- 。\n來源網址：https://www.federalreserve.gov/monetarypolicy/fomcca
- lendars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 Fed 主席記者會 ★★★★★
-TRIGGER:-PT60M
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 Fed 主席記者會 ★★★★★
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:ff9c1991c20d6e60404675fa3db6a755e72e51a8@roy-us-economic-calendar
-X-ROY-KEY:CPI:cpi y/y
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20260714T123000
-DTEND;TZID=America/New_York:20260714T130000
-SUMMARY:🔴 CPI／Core CPI ★★★★★
+UID:be0bdf6db7b5d0b104d3f48c1fd931daabe6166d@roy-us-economic-calendar
+X-ROY-KEY:CPI:core cpi m/m
+DTSTAMP:20260713T121214Z
+DTSTART;TZID=America/New_York:20260714T083000
+DTEND;TZID=America/New_York:20260714T090000
+SUMMARY:🇺🇸 Core CPI（核心消費者物價）★★★★★
 DESCRIPTION:來源：Forex Factory / Fair Economy\n重要程度：★★
- ★★★\n原始事件：CPI y/y\nForecast：3.8%\nPrevious：4.2%\nImp
- act：High\n時間以美東時區發布，Apple 行事曆會自動換算
- 台灣時間。\n來源網址：https://www.forexfactory.com/calendar/88
- 4-us-cpi-yy
-URL:https://www.forexfactory.com/calendar/884-us-cpi-yy
+ ★★★\n原始事件：Core CPI m/m\nForecast：0.2%\nPrevious：0.2%
+ \nImpact：High\n時間以美東時區發布，Apple 行事曆會自動
+ 換算台灣時間。\n來源網址：https://www.forexfactory.com/calen
+ dar/79-us-core-cpi-mm
+URL:https://www.forexfactory.com/calendar/79-us-core-cpi-mm
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🔴 CPI／Core CPI ★★★★★
+DESCRIPTION:🇺🇸 Core CPI（核心消費者物價）★★★★★
 TRIGGER:-PT60M
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🔴 CPI／Core CPI ★★★★★
+DESCRIPTION:🇺🇸 Core CPI（核心消費者物價）★★★★★
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:ab3da8bfbdb2bd4e23abb7bee8bc1899433acf64@roy-us-economic-calendar
-X-ROY-KEY:PPI:ppi m/m
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20260715T123000
-DTEND;TZID=America/New_York:20260715T130000
-SUMMARY:🔴 PPI／Core PPI ★★★★★
+UID:6601d63cfb80ef2a5602b8faf19e59369cce9c3b@roy-us-economic-calendar
+X-ROY-KEY:PPI:core ppi m/m
+DTSTAMP:20260713T121214Z
+DTSTART;TZID=America/New_York:20260715T083000
+DTEND;TZID=America/New_York:20260715T090000
+SUMMARY:🇺🇸 Core PPI（核心生產者物價）★★★★★
 DESCRIPTION:來源：Forex Factory / Fair Economy\n重要程度：★★
- ★★★\n原始事件：PPI m/m\nForecast：0.0%\nPrevious：1.1%\nImp
- act：High\n時間以美東時區發布，Apple 行事曆會自動換算
- 台灣時間。\n來源網址：https://www.forexfactory.com/calendar/86
- -us-ppi-mm
-URL:https://www.forexfactory.com/calendar/86-us-ppi-mm
+ ★★★\n原始事件：Core PPI m/m\nForecast：0.3%\nPrevious：0.4%
+ \nImpact：High\n時間以美東時區發布，Apple 行事曆會自動
+ 換算台灣時間。\n來源網址：https://www.forexfactory.com/calen
+ dar/87-us-core-ppi-mm
+URL:https://www.forexfactory.com/calendar/87-us-core-ppi-mm
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🔴 PPI／Core PPI ★★★★★
+DESCRIPTION:🇺🇸 Core PPI（核心生產者物價）★★★★★
 TRIGGER:-PT60M
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🔴 PPI／Core PPI ★★★★★
+DESCRIPTION:🇺🇸 Core PPI（核心生產者物價）★★★★★
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:16af87d751685b1e1f57bcbfbc45da63bdb400c0@roy-us-economic-calendar
-X-ROY-KEY:RETAIL
-DTSTAMP:20260713T112718Z
+UID:5dc47022eaaaa24b74aecceed8302f3de87bda8e@roy-us-economic-calendar
+X-ROY-KEY:CLAIMS:unemployment claims
+DTSTAMP:20260713T121214Z
 DTSTART;TZID=America/New_York:20260716T083000
 DTEND;TZID=America/New_York:20260716T090000
-SUMMARY:🔴 零售銷售 Retail Sales ★★★★★
-DESCRIPTION:來源：US Census\n重要程度：★★★★★\n時間以
- 美東時區發布，Apple 行事曆會自動換算台灣時間。\n來
- 源網址：https://www.census.gov/economic-indicators/calendar-listview
- .html
-URL:https://www.census.gov/economic-indicators/calendar-listview.html
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 零售銷售 Retail Sales ★★★★★
-TRIGGER:-PT60M
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 零售銷售 Retail Sales ★★★★★
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:43d06e53fac71f11bbe8ab25c66bf4b9fd22ced0@roy-us-economic-calendar
-X-ROY-KEY:RETAIL:retail sales m/m
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20260716T123000
-DTEND;TZID=America/New_York:20260716T130000
-SUMMARY:🔴 零售銷售 Retail Sales ★★★★★
-DESCRIPTION:來源：Forex Factory / Fair Economy\n重要程度：★★
- ★★\n原始事件：Retail Sales m/m\nForecast：0.3%\nPrevious：0.9
- %\nImpact：Medium\n時間以美東時區發布，Apple 行事曆會自
- 動換算台灣時間。\n來源網址：https://www.forexfactory.com/ca
- lendar/102-us-retail-sales-mm
-URL:https://www.forexfactory.com/calendar/102-us-retail-sales-mm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 零售銷售 Retail Sales ★★★★★
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:dda713e913d4b429f34ebfac161ecd6653b2036d@roy-us-economic-calendar
-X-ROY-KEY:CLAIMS:unemployment claims
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20260716T123000
-DTEND;TZID=America/New_York:20260716T130000
-SUMMARY:🟠 初領失業救濟金 ★★★★
+SUMMARY:🇺🇸 初領失業救濟金 ★★★★
 DESCRIPTION:來源：Forex Factory / Fair Economy\n重要程度：★★
  ★★\n原始事件：Unemployment Claims\nForecast：215K\nPrevious：
  215K\nImpact：Medium\n時間以美東時區發布，Apple 行事曆會
@@ -557,17 +73,37 @@ URL:https://www.forexfactory.com/calendar/11-us-unemployment-claims
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🟠 初領失業救濟金 ★★★★
+DESCRIPTION:🇺🇸 初領失業救濟金 ★★★★
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:9f8d7056796ee5369a1f402485caf52fb44fce47@roy-us-economic-calendar
+X-ROY-KEY:RETAIL:core retail sales m/m
+DTSTAMP:20260713T121214Z
+DTSTART;TZID=America/New_York:20260716T083000
+DTEND;TZID=America/New_York:20260716T090000
+SUMMARY:🇺🇸 零售銷售 Retail Sales ★★★★★
+DESCRIPTION:來源：Forex Factory / Fair Economy\n重要程度：★★
+ ★★\n原始事件：Core Retail Sales m/m\nForecast：-0.1%\nPrevious
+ ：0.8%\nImpact：Medium\n時間以美東時區發布，Apple 行事曆
+ 會自動換算台灣時間。\n來源網址：https://www.forexfactory.
+ com/calendar/112-us-core-retail-sales-mm
+URL:https://www.forexfactory.com/calendar/112-us-core-retail-sales-mm
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🇺🇸 零售銷售 Retail Sales ★★★★★
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:36c6e165bb4d55db0dbf41a662eef061705885c0@roy-us-economic-calendar
 X-ROY-KEY:HOUSING_STARTS
-DTSTAMP:20260713T112718Z
+DTSTAMP:20260713T121214Z
 DTSTART;TZID=America/New_York:20260717T083000
 DTEND;TZID=America/New_York:20260717T090000
-SUMMARY:🟠 新屋開工／營建許可 ★★★★
+SUMMARY:🇺🇸 新屋開工／營建許可 ★★★★
 DESCRIPTION:來源：US Census\n重要程度：★★★★\n時間以美
  東時區發布，Apple 行事曆會自動換算台灣時間。\n來源
  網址：https://www.census.gov/economic-indicators/calendar-listview.ht
@@ -576,17 +112,17 @@ URL:https://www.census.gov/economic-indicators/calendar-listview.html
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🟠 新屋開工／營建許可 ★★★★
+DESCRIPTION:🇺🇸 新屋開工／營建許可 ★★★★
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:a9e80914d6c3d223eeb3c089c97874f4043b7926@roy-us-economic-calendar
+UID:ce5e35c63cec541a4ad360313353e67ecb0f7180@roy-us-economic-calendar
 X-ROY-KEY:UOM:prelim uom consumer sentiment
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20260717T140000
-DTEND;TZID=America/New_York:20260717T143000
-SUMMARY:🟠 密大消費者信心 ★★★★
+DTSTAMP:20260713T121214Z
+DTSTART;TZID=America/New_York:20260717T100000
+DTEND;TZID=America/New_York:20260717T103000
+SUMMARY:🇺🇸 密大消費者信心 ★★★★
 DESCRIPTION:來源：Forex Factory / Fair Economy\n重要程度：★★
  ★★\n原始事件：Prelim UoM Consumer Sentiment\nForecast：51.4\nP
  revious：48.9\nImpact：Medium\n時間以美東時區發布，Apple 行
@@ -597,17 +133,17 @@ URL:https://www.forexfactory.com/calendar/53-us-prelim-uom-consumer-senti
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🟠 密大消費者信心 ★★★★
+DESCRIPTION:🇺🇸 密大消費者信心 ★★★★
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:bd742774148265ab9444928fe46591fcecf166e0@roy-us-economic-calendar
 X-ROY-KEY:NEW_HOME
-DTSTAMP:20260713T112718Z
+DTSTAMP:20260713T121214Z
 DTSTART;TZID=America/New_York:20260724T100000
 DTEND;TZID=America/New_York:20260724T103000
-SUMMARY:🟠 新屋銷售 ★★★★
+SUMMARY:🇺🇸 新屋銷售 ★★★★
 DESCRIPTION:來源：US Census\n重要程度：★★★★\n時間以美
  東時區發布，Apple 行事曆會自動換算台灣時間。\n來源
  網址：https://www.census.gov/economic-indicators/calendar-listview.ht
@@ -616,65 +152,17 @@ URL:https://www.census.gov/economic-indicators/calendar-listview.html
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🟠 新屋銷售 ★★★★
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:760eca0ca3232612dbc2fa0d955d86eadc593832@roy-us-economic-calendar
-X-ROY-KEY:FOMC
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20260726T140000
-DTEND;TZID=America/New_York:20260726T143000
-SUMMARY:🔴 FOMC 利率決議 ★★★★★
-DESCRIPTION:來源：Federal Reserve\n重要程度：★★★★★\n時
- 間以美東時區發布，Apple 行事曆會自動換算台灣時間。
- \n來源網址：https://www.federalreserve.gov/monetarypolicy/fomccalen
- dars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 FOMC 利率決議 ★★★★★
-TRIGGER:-PT60M
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 FOMC 利率決議 ★★★★★
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:02cbaf0b1c77bc2884441b0a261fde597a7119f6@roy-us-economic-calendar
-X-ROY-KEY:FOMC_PRESS
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20260726T143000
-DTEND;TZID=America/New_York:20260726T153000
-SUMMARY:🔴 Fed 主席記者會 ★★★★★
-DESCRIPTION:來源：Federal Reserve\n重要程度：★★★★★\n時
- 間以美東時區發布，Apple 行事曆會自動換算台灣時間。
- \n來源網址：https://www.federalreserve.gov/monetarypolicy/fomccalen
- dars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 Fed 主席記者會 ★★★★★
-TRIGGER:-PT60M
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 Fed 主席記者會 ★★★★★
+DESCRIPTION:🇺🇸 新屋銷售 ★★★★
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:48619e34badf9a8f8b2c04406607cca78b9f22bb@roy-us-economic-calendar
 X-ROY-KEY:DURABLE
-DTSTAMP:20260713T112718Z
+DTSTAMP:20260713T121214Z
 DTSTART;TZID=America/New_York:20260727T083000
 DTEND;TZID=America/New_York:20260727T090000
-SUMMARY:🟠 耐久財訂單 ★★★★
+SUMMARY:🇺🇸 耐久財訂單 ★★★★
 DESCRIPTION:來源：US Census\n重要程度：★★★★\n時間以美
  東時區發布，Apple 行事曆會自動換算台灣時間。\n來源
  網址：https://www.census.gov/economic-indicators/calendar-listview.ht
@@ -683,4689 +171,1216 @@ URL:https://www.census.gov/economic-indicators/calendar-listview.html
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🟠 耐久財訂單 ★★★★
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:c27e896fddb056099e6ce2af223fece9ad885396@roy-us-economic-calendar
-X-ROY-KEY:FOMC
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20260727T140000
-DTEND;TZID=America/New_York:20260727T143000
-SUMMARY:🔴 FOMC 利率決議 ★★★★★
-DESCRIPTION:來源：Federal Reserve\n重要程度：★★★★★\n時
- 間以美東時區發布，Apple 行事曆會自動換算台灣時間。
- \n來源網址：https://www.federalreserve.gov/monetarypolicy/fomccalen
- dars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 FOMC 利率決議 ★★★★★
-TRIGGER:-PT60M
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 FOMC 利率決議 ★★★★★
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:0ecbc1d895c78fd60c7a52e0d2ded8bff3de1483@roy-us-economic-calendar
-X-ROY-KEY:FOMC_PRESS
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20260727T143000
-DTEND;TZID=America/New_York:20260727T153000
-SUMMARY:🔴 Fed 主席記者會 ★★★★★
-DESCRIPTION:來源：Federal Reserve\n重要程度：★★★★★\n時
- 間以美東時區發布，Apple 行事曆會自動換算台灣時間。
- \n來源網址：https://www.federalreserve.gov/monetarypolicy/fomccalen
- dars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 Fed 主席記者會 ★★★★★
-TRIGGER:-PT60M
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 Fed 主席記者會 ★★★★★
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:28763169d5874f9c1f083077c9a6e4b3107a813b@roy-us-economic-calendar
-X-ROY-KEY:FOMC
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20260728T140000
-DTEND;TZID=America/New_York:20260728T143000
-SUMMARY:🔴 FOMC 利率決議 ★★★★★
-DESCRIPTION:來源：Federal Reserve\n重要程度：★★★★★\n時
- 間以美東時區發布，Apple 行事曆會自動換算台灣時間。
- \n來源網址：https://www.federalreserve.gov/monetarypolicy/fomccalen
- dars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 FOMC 利率決議 ★★★★★
-TRIGGER:-PT60M
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 FOMC 利率決議 ★★★★★
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:5d859c92e788272f26801c112dcab49a65e0131e@roy-us-economic-calendar
-X-ROY-KEY:FOMC_PRESS
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20260728T143000
-DTEND;TZID=America/New_York:20260728T153000
-SUMMARY:🔴 Fed 主席記者會 ★★★★★
-DESCRIPTION:來源：Federal Reserve\n重要程度：★★★★★\n時
- 間以美東時區發布，Apple 行事曆會自動換算台灣時間。
- \n來源網址：https://www.federalreserve.gov/monetarypolicy/fomccalen
- dars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 Fed 主席記者會 ★★★★★
-TRIGGER:-PT60M
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 Fed 主席記者會 ★★★★★
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:c192cdeeb69d718b5a3ee644cf51ec00ad7ae811@roy-us-economic-calendar
-X-ROY-KEY:EXISTING:美國 FOMC 利率決議 / Statement
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20260729T140000
-DTEND;TZID=America/New_York:20260729T143000
-SUMMARY:美國 FOMC 利率決議 / Statement
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★\n時
- 間以美東時區發布，Apple 行事曆會自動換算台灣時間。
- \n來源網址：https://www.federalreserve.gov/monetarypolicy/fomccalen
- dars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:美國 FOMC 利率決議 / Statement
+DESCRIPTION:🇺🇸 耐久財訂單 ★★★★
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:4d58c109b68fee972936a093206cf8a83afe9ec6@roy-us-economic-calendar
 X-ROY-KEY:FOMC
-DTSTAMP:20260713T112718Z
+DTSTAMP:20260713T121214Z
 DTSTART;TZID=America/New_York:20260729T140000
 DTEND;TZID=America/New_York:20260729T143000
-SUMMARY:🔴 FOMC 利率決議 ★★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★★\n
- 時間以美東時區發布，Apple 行事曆會自動換算台灣時間
- 。\n來源網址：https://www.federalreserve.gov/monetarypolicy/fomcca
- lendars.htm
+SUMMARY:🇺🇸 FOMC 利率決議 ★★★★★
+DESCRIPTION:來源：Federal Reserve\n重要程度：★★★★★\n僅
+ 使用已核對的聯準會會議結束日。\n時間以美東時區發
+ 布，Apple 行事曆會自動換算台灣時間。\n來源網址：http
+ s://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
 URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🔴 FOMC 利率決議 ★★★★★
+DESCRIPTION:🇺🇸 FOMC 利率決議 ★★★★★
 TRIGGER:-PT60M
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🔴 FOMC 利率決議 ★★★★★
+DESCRIPTION:🇺🇸 FOMC 利率決議 ★★★★★
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:e9bae016f8cb9477f04e9fa018f6da0af5598de4@roy-us-economic-calendar
 X-ROY-KEY:FOMC_PRESS
-DTSTAMP:20260713T112718Z
+DTSTAMP:20260713T121214Z
 DTSTART;TZID=America/New_York:20260729T143000
-DTEND;TZID=America/New_York:20260729T150000
-SUMMARY:🔴 Fed 主席記者會 ★★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★★\n
- 時間以美東時區發布，Apple 行事曆會自動換算台灣時間
- 。\n來源網址：https://www.federalreserve.gov/monetarypolicy/fomcca
- lendars.htm
+DTEND;TZID=America/New_York:20260729T153000
+SUMMARY:🇺🇸 Fed 主席記者會 ★★★★★
+DESCRIPTION:來源：Federal Reserve\n重要程度：★★★★★\n記
+ 者會時間固定排在利率決議後 30 分鐘。\n時間以美東時
+ 區發布，Apple 行事曆會自動換算台灣時間。\n來源網址
+ ：https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
 URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🔴 Fed 主席記者會 ★★★★★
+DESCRIPTION:🇺🇸 Fed 主席記者會 ★★★★★
 TRIGGER:-PT60M
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🔴 Fed 主席記者會 ★★★★★
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:0c144660a1960e7f7592cd5fc5dffa8bf3ff1ff2@roy-us-economic-calendar
-X-ROY-KEY:EXISTING:美國 GDP (Advance Estimate)\\\, 2nd Quarter 2026
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20260730T083000
-DTEND;TZID=America/New_York:20260730T090000
-SUMMARY:美國 GDP (Advance Estimate)\, 2nd Quarter 2026
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★\n時
- 間以美東時區發布，Apple 行事曆會自動換算台灣時間。
- \n來源網址：https://www.bea.gov/news/schedule
-URL:https://www.bea.gov/news/schedule
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:美國 GDP (Advance Estimate)\, 2nd Quarter 2026
+DESCRIPTION:🇺🇸 Fed 主席記者會 ★★★★★
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:508ec98507202a919afa57a113b7feec186ac4c5@roy-us-economic-calendar
 X-ROY-KEY:PCE
-DTSTAMP:20260713T112718Z
+DTSTAMP:20260713T121214Z
 DTSTART;TZID=America/New_York:20260730T083000
 DTEND;TZID=America/New_York:20260730T090000
-SUMMARY:🔴 PCE／Core PCE ★★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★★\n
- 時間以美東時區發布，Apple 行事曆會自動換算台灣時間
- 。\n來源網址：https://www.bea.gov/news/schedule
+SUMMARY:🇺🇸 PCE／Core PCE ★★★★★
+DESCRIPTION:來源：BEA\n重要程度：★★★★★\n時間以美東
+ 時區發布，Apple 行事曆會自動換算台灣時間。\n來源網
+ 址：https://www.bea.gov/news/schedule
 URL:https://www.bea.gov/news/schedule
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🔴 PCE／Core PCE ★★★★★
+DESCRIPTION:🇺🇸 PCE／Core PCE ★★★★★
 TRIGGER:-PT60M
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🔴 PCE／Core PCE ★★★★★
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:b515afab2c44e1778bc30996278497ab89c22689@roy-us-economic-calendar
-X-ROY-KEY:EXISTING:美國 FOMC 利率決議 / Statement
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20260730T140000
-DTEND;TZID=America/New_York:20260730T143000
-SUMMARY:美國 FOMC 利率決議 / Statement
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★\n時
- 間以美東時區發布，Apple 行事曆會自動換算台灣時間。
- \n來源網址：https://www.federalreserve.gov/monetarypolicy/fomccalen
- dars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:美國 FOMC 利率決議 / Statement
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:eb4a6268cfc038b62fbd739814825af4d4a910e9@roy-us-economic-calendar
-X-ROY-KEY:FOMC
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20260730T140000
-DTEND;TZID=America/New_York:20260730T143000
-SUMMARY:🔴 FOMC 利率決議 ★★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★★\n
- 時間以美東時區發布，Apple 行事曆會自動換算台灣時間
- 。\n來源網址：https://www.federalreserve.gov/monetarypolicy/fomcca
- lendars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 FOMC 利率決議 ★★★★★
-TRIGGER:-PT60M
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 FOMC 利率決議 ★★★★★
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:6eaea95bbdfd43f23b8272bd27d8967397ee03bd@roy-us-economic-calendar
-X-ROY-KEY:FOMC_PRESS
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20260730T143000
-DTEND;TZID=America/New_York:20260730T150000
-SUMMARY:🔴 Fed 主席記者會 ★★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★★\n
- 時間以美東時區發布，Apple 行事曆會自動換算台灣時間
- 。\n來源網址：https://www.federalreserve.gov/monetarypolicy/fomcca
- lendars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 Fed 主席記者會 ★★★★★
-TRIGGER:-PT60M
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 Fed 主席記者會 ★★★★★
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:9aa18e9d6bbe3ca3684d190fdaf9e45100783b7a@roy-us-economic-calendar
-X-ROY-KEY:EXISTING:美國 FOMC 利率決議 / Statement
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20260731T140000
-DTEND;TZID=America/New_York:20260731T143000
-SUMMARY:美國 FOMC 利率決議 / Statement
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★\n時
- 間以美東時區發布，Apple 行事曆會自動換算台灣時間。
- \n來源網址：https://www.federalreserve.gov/monetarypolicy/fomccalen
- dars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:美國 FOMC 利率決議 / Statement
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:47ab448c902bcd5586f7b7fa9e64ff2e95ee2dd7@roy-us-economic-calendar
-X-ROY-KEY:FOMC
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20260731T140000
-DTEND;TZID=America/New_York:20260731T143000
-SUMMARY:🔴 FOMC 利率決議 ★★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★★\n
- 時間以美東時區發布，Apple 行事曆會自動換算台灣時間
- 。\n來源網址：https://www.federalreserve.gov/monetarypolicy/fomcca
- lendars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 FOMC 利率決議 ★★★★★
-TRIGGER:-PT60M
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 FOMC 利率決議 ★★★★★
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:f6b6448ba54c552d87a22f4f66c50a8cfbf225c4@roy-us-economic-calendar
-X-ROY-KEY:FOMC_PRESS
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20260731T143000
-DTEND;TZID=America/New_York:20260731T150000
-SUMMARY:🔴 Fed 主席記者會 ★★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★★\n
- 時間以美東時區發布，Apple 行事曆會自動換算台灣時間
- 。\n來源網址：https://www.federalreserve.gov/monetarypolicy/fomcca
- lendars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 Fed 主席記者會 ★★★★★
-TRIGGER:-PT60M
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 Fed 主席記者會 ★★★★★
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:3f7098ac5c77360e0adecffc3920a7ab51b08c2c@roy-us-economic-calendar
-X-ROY-KEY:EXISTING:美國 Construction Spending (Construction Put in Plac
- e)
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20260803T100000
-DTEND;TZID=America/New_York:20260803T103000
-SUMMARY:美國 Construction Spending (Construction Put in Place)
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★\n時
- 間以美東時區發布，Apple 行事曆會自動換算台灣時間。
- \n來源網址：https://www.census.gov/economic-indicators/calendar-lis
- tview.html
-URL:https://www.census.gov/economic-indicators/calendar-listview.html
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:美國 Construction Spending (Construction Put in Place)
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:5da8659b31bd4b63e78e9c211d444de60fdd1772@roy-us-economic-calendar
-X-ROY-KEY:EXISTING:美國 U.S. International Trade in Goods and Services\
- \\, June 2026
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20260804T083000
-DTEND;TZID=America/New_York:20260804T090000
-SUMMARY:美國 U.S. International Trade in Goods and Services\, June 2026
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★\n時
- 間以美東時區發布，Apple 行事曆會自動換算台灣時間。
- \n來源網址：https://www.bea.gov/news/schedule
-URL:https://www.bea.gov/news/schedule
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:美國 U.S. International Trade in Goods and Services\, June 
- 2026
+DESCRIPTION:🇺🇸 PCE／Core PCE ★★★★★
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:26730312f3f18427a0240fe249f0bed631ea4863@roy-us-economic-calendar
 X-ROY-KEY:TRADE
-DTSTAMP:20260713T112718Z
+DTSTAMP:20260713T121214Z
 DTSTART;TZID=America/New_York:20260804T083000
 DTEND;TZID=America/New_York:20260804T090000
-SUMMARY:🟠 美國貿易收支 ★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★\n時
- 間以美東時區發布，Apple 行事曆會自動換算台灣時間。
- \n來源網址：https://www.bea.gov/news/schedule
+SUMMARY:🇺🇸 美國貿易收支 ★★★★
+DESCRIPTION:來源：BEA\n重要程度：★★★★\n時間以美東時
+ 區發布，Apple 行事曆會自動換算台灣時間。\n來源網址
+ ：https://www.bea.gov/news/schedule
 URL:https://www.bea.gov/news/schedule
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🟠 美國貿易收支 ★★★★
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:7649c42d347ee5dbc5f1ddf51ebfe45a5924ff93@roy-us-economic-calendar
-X-ROY-KEY:EXISTING:美國 Advance Monthly Sales for Retail and Food Servi
- ces
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20260814T083000
-DTEND;TZID=America/New_York:20260814T090000
-SUMMARY:美國 Advance Monthly Sales for Retail and Food Services
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★\n時
- 間以美東時區發布，Apple 行事曆會自動換算台灣時間。
- \n來源網址：https://www.census.gov/economic-indicators/calendar-lis
- tview.html
-URL:https://www.census.gov/economic-indicators/calendar-listview.html
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:美國 Advance Monthly Sales for Retail and Food Services
+DESCRIPTION:🇺🇸 美國貿易收支 ★★★★
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:97e31577bfd952399acdf99ce5d431dd42006a13@roy-us-economic-calendar
 X-ROY-KEY:RETAIL
-DTSTAMP:20260713T112718Z
+DTSTAMP:20260713T121214Z
 DTSTART;TZID=America/New_York:20260814T083000
 DTEND;TZID=America/New_York:20260814T090000
-SUMMARY:🔴 零售銷售 Retail Sales ★★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★★\n
- 時間以美東時區發布，Apple 行事曆會自動換算台灣時間
- 。\n來源網址：https://www.census.gov/economic-indicators/calendar-
- listview.html
+SUMMARY:🇺🇸 零售銷售 Retail Sales ★★★★★
+DESCRIPTION:來源：US Census\n重要程度：★★★★★\n時間以
+ 美東時區發布，Apple 行事曆會自動換算台灣時間。\n來
+ 源網址：https://www.census.gov/economic-indicators/calendar-listview
+ .html
 URL:https://www.census.gov/economic-indicators/calendar-listview.html
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🔴 零售銷售 Retail Sales ★★★★★
+DESCRIPTION:🇺🇸 零售銷售 Retail Sales ★★★★★
 TRIGGER:-PT60M
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🔴 零售銷售 Retail Sales ★★★★★
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:cf8ba4e5b6002eb8a1a0a651152810e15137f029@roy-us-economic-calendar
-X-ROY-KEY:EXISTING:美國 FOMC 利率決議 / Statement
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20260816T140000
-DTEND;TZID=America/New_York:20260816T143000
-SUMMARY:美國 FOMC 利率決議 / Statement
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★\n時
- 間以美東時區發布，Apple 行事曆會自動換算台灣時間。
- \n來源網址：https://www.federalreserve.gov/monetarypolicy/fomccalen
- dars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:美國 FOMC 利率決議 / Statement
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:e467e68c582c3008e08b4786429fc376f897064f@roy-us-economic-calendar
-X-ROY-KEY:FOMC
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20260816T140000
-DTEND;TZID=America/New_York:20260816T143000
-SUMMARY:🔴 FOMC 利率決議 ★★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★★\n
- 時間以美東時區發布，Apple 行事曆會自動換算台灣時間
- 。\n來源網址：https://www.federalreserve.gov/monetarypolicy/fomcca
- lendars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 FOMC 利率決議 ★★★★★
-TRIGGER:-PT60M
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 FOMC 利率決議 ★★★★★
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:5217845d8b923a6a11d0d93c6e19bff1f468488d@roy-us-economic-calendar
-X-ROY-KEY:FOMC_PRESS
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20260816T143000
-DTEND;TZID=America/New_York:20260816T150000
-SUMMARY:🔴 Fed 主席記者會 ★★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★★\n
- 時間以美東時區發布，Apple 行事曆會自動換算台灣時間
- 。\n來源網址：https://www.federalreserve.gov/monetarypolicy/fomcca
- lendars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 Fed 主席記者會 ★★★★★
-TRIGGER:-PT60M
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 Fed 主席記者會 ★★★★★
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:dead9e8f77547f2f2850f85aa6704e254a4cadfc@roy-us-economic-calendar
-X-ROY-KEY:EXISTING:美國 FOMC 利率決議 / Statement
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20260817T140000
-DTEND;TZID=America/New_York:20260817T143000
-SUMMARY:美國 FOMC 利率決議 / Statement
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★\n時
- 間以美東時區發布，Apple 行事曆會自動換算台灣時間。
- \n來源網址：https://www.federalreserve.gov/monetarypolicy/fomccalen
- dars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:美國 FOMC 利率決議 / Statement
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:76c601192d6b2b088be9898539d7136f33c923c2@roy-us-economic-calendar
-X-ROY-KEY:FOMC
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20260817T140000
-DTEND;TZID=America/New_York:20260817T143000
-SUMMARY:🔴 FOMC 利率決議 ★★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★★\n
- 時間以美東時區發布，Apple 行事曆會自動換算台灣時間
- 。\n來源網址：https://www.federalreserve.gov/monetarypolicy/fomcca
- lendars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 FOMC 利率決議 ★★★★★
-TRIGGER:-PT60M
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 FOMC 利率決議 ★★★★★
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:12a48b1674ab01853e1a7dab32c1d0962914446d@roy-us-economic-calendar
-X-ROY-KEY:FOMC_PRESS
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20260817T143000
-DTEND;TZID=America/New_York:20260817T150000
-SUMMARY:🔴 Fed 主席記者會 ★★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★★\n
- 時間以美東時區發布，Apple 行事曆會自動換算台灣時間
- 。\n來源網址：https://www.federalreserve.gov/monetarypolicy/fomcca
- lendars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 Fed 主席記者會 ★★★★★
-TRIGGER:-PT60M
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 Fed 主席記者會 ★★★★★
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:eb5dbc973c81e0067fc92eb2b36ff075a23b5fe2@roy-us-economic-calendar
-X-ROY-KEY:EXISTING:美國 New Residential Construction (Building Permits\
- \\, Housing Starts\\\, and Housing Completions)
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20260818T083000
-DTEND;TZID=America/New_York:20260818T090000
-SUMMARY:美國 New Residential Construction (Building Permits\, Housing S
- tarts\, and Housing Completions)
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★\n時
- 間以美東時區發布，Apple 行事曆會自動換算台灣時間。
- \n來源網址：https://www.census.gov/economic-indicators/calendar-lis
- tview.html
-URL:https://www.census.gov/economic-indicators/calendar-listview.html
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:美國 New Residential Construction (Building Permits\, Housi
- ng Starts\, and Housing Completions)
+DESCRIPTION:🇺🇸 零售銷售 Retail Sales ★★★★★
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:b309c9e0502841e91e03389e591b99d6e0c2bb42@roy-us-economic-calendar
 X-ROY-KEY:HOUSING_STARTS
-DTSTAMP:20260713T112718Z
+DTSTAMP:20260713T121214Z
 DTSTART;TZID=America/New_York:20260818T083000
 DTEND;TZID=America/New_York:20260818T090000
-SUMMARY:🟠 新屋開工／營建許可 ★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★\n時
- 間以美東時區發布，Apple 行事曆會自動換算台灣時間。
- \n來源網址：https://www.census.gov/economic-indicators/calendar-lis
- tview.html
+SUMMARY:🇺🇸 新屋開工／營建許可 ★★★★
+DESCRIPTION:來源：US Census\n重要程度：★★★★\n時間以美
+ 東時區發布，Apple 行事曆會自動換算台灣時間。\n來源
+ 網址：https://www.census.gov/economic-indicators/calendar-listview.ht
+ ml
 URL:https://www.census.gov/economic-indicators/calendar-listview.html
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🟠 新屋開工／營建許可 ★★★★
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:48fdbdb8d276ad643aec5974123c2742430a5940@roy-us-economic-calendar
-X-ROY-KEY:EXISTING:美國 FOMC 利率決議 / Statement
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20260818T140000
-DTEND;TZID=America/New_York:20260818T143000
-SUMMARY:美國 FOMC 利率決議 / Statement
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★\n時
- 間以美東時區發布，Apple 行事曆會自動換算台灣時間。
- \n來源網址：https://www.federalreserve.gov/monetarypolicy/fomccalen
- dars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:美國 FOMC 利率決議 / Statement
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:49ca6637c5fee9256188e194dc862ab399d7dd75@roy-us-economic-calendar
-X-ROY-KEY:FOMC
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20260818T140000
-DTEND;TZID=America/New_York:20260818T143000
-SUMMARY:🔴 FOMC 利率決議 ★★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★★\n
- 時間以美東時區發布，Apple 行事曆會自動換算台灣時間
- 。\n來源網址：https://www.federalreserve.gov/monetarypolicy/fomcca
- lendars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 FOMC 利率決議 ★★★★★
-TRIGGER:-PT60M
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 FOMC 利率決議 ★★★★★
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:b4a8b66833f0650697431e0e3674383fc4d85087@roy-us-economic-calendar
-X-ROY-KEY:FOMC_PRESS
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20260818T143000
-DTEND;TZID=America/New_York:20260818T150000
-SUMMARY:🔴 Fed 主席記者會 ★★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★★\n
- 時間以美東時區發布，Apple 行事曆會自動換算台灣時間
- 。\n來源網址：https://www.federalreserve.gov/monetarypolicy/fomcca
- lendars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 Fed 主席記者會 ★★★★★
-TRIGGER:-PT60M
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 Fed 主席記者會 ★★★★★
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:1a09264ae5ec3a8e5e8436723e5bd65ef317df72@roy-us-economic-calendar
-X-ROY-KEY:EXISTING:美國 FOMC 利率決議 / Statement
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20260820T140000
-DTEND;TZID=America/New_York:20260820T143000
-SUMMARY:美國 FOMC 利率決議 / Statement
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★\n時
- 間以美東時區發布，Apple 行事曆會自動換算台灣時間。
- \n來源網址：https://www.federalreserve.gov/monetarypolicy/fomccalen
- dars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:美國 FOMC 利率決議 / Statement
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:8115a90a3307406dfd838c387382b657f6314eb6@roy-us-economic-calendar
-X-ROY-KEY:FOMC
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20260820T140000
-DTEND;TZID=America/New_York:20260820T143000
-SUMMARY:🔴 FOMC 利率決議 ★★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★★\n
- 時間以美東時區發布，Apple 行事曆會自動換算台灣時間
- 。\n來源網址：https://www.federalreserve.gov/monetarypolicy/fomcca
- lendars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 FOMC 利率決議 ★★★★★
-TRIGGER:-PT60M
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 FOMC 利率決議 ★★★★★
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:bf4d49d31a2dd3f545e84aa02ca914dc2f8ab728@roy-us-economic-calendar
-X-ROY-KEY:FOMC_PRESS
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20260820T143000
-DTEND;TZID=America/New_York:20260820T150000
-SUMMARY:🔴 Fed 主席記者會 ★★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★★\n
- 時間以美東時區發布，Apple 行事曆會自動換算台灣時間
- 。\n來源網址：https://www.federalreserve.gov/monetarypolicy/fomcca
- lendars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 Fed 主席記者會 ★★★★★
-TRIGGER:-PT60M
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 Fed 主席記者會 ★★★★★
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:b9087ee8cb56b63888544dbab5fd63c96f96e135@roy-us-economic-calendar
-X-ROY-KEY:EXISTING:美國 FOMC 利率決議 / Statement
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20260821T140000
-DTEND;TZID=America/New_York:20260821T143000
-SUMMARY:美國 FOMC 利率決議 / Statement
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★\n時
- 間以美東時區發布，Apple 行事曆會自動換算台灣時間。
- \n來源網址：https://www.federalreserve.gov/monetarypolicy/fomccalen
- dars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:美國 FOMC 利率決議 / Statement
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:3c7b8636af05358652e4d9bdcf6fe1339a8f54b8@roy-us-economic-calendar
-X-ROY-KEY:FOMC
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20260821T140000
-DTEND;TZID=America/New_York:20260821T143000
-SUMMARY:🔴 FOMC 利率決議 ★★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★★\n
- 時間以美東時區發布，Apple 行事曆會自動換算台灣時間
- 。\n來源網址：https://www.federalreserve.gov/monetarypolicy/fomcca
- lendars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 FOMC 利率決議 ★★★★★
-TRIGGER:-PT60M
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 FOMC 利率決議 ★★★★★
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:1f051879757dd40ece9bbc0a7fcf4510a2f1125f@roy-us-economic-calendar
-X-ROY-KEY:FOMC_PRESS
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20260821T143000
-DTEND;TZID=America/New_York:20260821T150000
-SUMMARY:🔴 Fed 主席記者會 ★★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★★\n
- 時間以美東時區發布，Apple 行事曆會自動換算台灣時間
- 。\n來源網址：https://www.federalreserve.gov/monetarypolicy/fomcca
- lendars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 Fed 主席記者會 ★★★★★
-TRIGGER:-PT60M
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 Fed 主席記者會 ★★★★★
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:da33ff7ba542be9e65f299e031d875aa2a647913@roy-us-economic-calendar
-X-ROY-KEY:EXISTING:美國 FOMC 利率決議 / Statement
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20260822T140000
-DTEND;TZID=America/New_York:20260822T143000
-SUMMARY:美國 FOMC 利率決議 / Statement
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★\n時
- 間以美東時區發布，Apple 行事曆會自動換算台灣時間。
- \n來源網址：https://www.federalreserve.gov/monetarypolicy/fomccalen
- dars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:美國 FOMC 利率決議 / Statement
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:b3314e816b799eaef1bb77e7815eebbb2f90f415@roy-us-economic-calendar
-X-ROY-KEY:FOMC
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20260822T140000
-DTEND;TZID=America/New_York:20260822T143000
-SUMMARY:🔴 FOMC 利率決議 ★★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★★\n
- 時間以美東時區發布，Apple 行事曆會自動換算台灣時間
- 。\n來源網址：https://www.federalreserve.gov/monetarypolicy/fomcca
- lendars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 FOMC 利率決議 ★★★★★
-TRIGGER:-PT60M
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 FOMC 利率決議 ★★★★★
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:f807c6c576045b870e3538582cb88bfe6e03d6c9@roy-us-economic-calendar
-X-ROY-KEY:FOMC_PRESS
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20260822T143000
-DTEND;TZID=America/New_York:20260822T150000
-SUMMARY:🔴 Fed 主席記者會 ★★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★★\n
- 時間以美東時區發布，Apple 行事曆會自動換算台灣時間
- 。\n來源網址：https://www.federalreserve.gov/monetarypolicy/fomcca
- lendars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 Fed 主席記者會 ★★★★★
-TRIGGER:-PT60M
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 Fed 主席記者會 ★★★★★
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:7d0ff3cdda15f360260b93cd2ee854a7bdf3e02f@roy-us-economic-calendar
-X-ROY-KEY:EXISTING:美國 New Residential Sales
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20260825T100000
-DTEND;TZID=America/New_York:20260825T103000
-SUMMARY:美國 New Residential Sales
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★\n時
- 間以美東時區發布，Apple 行事曆會自動換算台灣時間。
- \n來源網址：https://www.census.gov/economic-indicators/calendar-lis
- tview.html
-URL:https://www.census.gov/economic-indicators/calendar-listview.html
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:美國 New Residential Sales
+DESCRIPTION:🇺🇸 新屋開工／營建許可 ★★★★
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:edd747c6693f465601054fe4278183719fc68a71@roy-us-economic-calendar
 X-ROY-KEY:NEW_HOME
-DTSTAMP:20260713T112718Z
+DTSTAMP:20260713T121214Z
 DTSTART;TZID=America/New_York:20260825T100000
 DTEND;TZID=America/New_York:20260825T103000
-SUMMARY:🟠 新屋銷售 ★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★\n時
- 間以美東時區發布，Apple 行事曆會自動換算台灣時間。
- \n來源網址：https://www.census.gov/economic-indicators/calendar-lis
- tview.html
+SUMMARY:🇺🇸 新屋銷售 ★★★★
+DESCRIPTION:來源：US Census\n重要程度：★★★★\n時間以美
+ 東時區發布，Apple 行事曆會自動換算台灣時間。\n來源
+ 網址：https://www.census.gov/economic-indicators/calendar-listview.ht
+ ml
 URL:https://www.census.gov/economic-indicators/calendar-listview.html
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🟠 新屋銷售 ★★★★
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:35145c3396617057164401293f13f0c141a16dcc@roy-us-economic-calendar
-X-ROY-KEY:EXISTING:美國 GDP (Second Estimate) and Corporate Profits\\\,
-  2nd Quarter 2026
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20260826T083000
-DTEND;TZID=America/New_York:20260826T090000
-SUMMARY:美國 GDP (Second Estimate) and Corporate Profits\, 2nd Quarter 
- 2026
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★\n時
- 間以美東時區發布，Apple 行事曆會自動換算台灣時間。
- \n來源網址：https://www.bea.gov/news/schedule
-URL:https://www.bea.gov/news/schedule
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:美國 GDP (Second Estimate) and Corporate Profits\, 2nd Quar
- ter 2026
+DESCRIPTION:🇺🇸 新屋銷售 ★★★★
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:9d6417b749fab64209d25d21c37f081bfe72bd31@roy-us-economic-calendar
 X-ROY-KEY:PCE
-DTSTAMP:20260713T112718Z
+DTSTAMP:20260713T121214Z
 DTSTART;TZID=America/New_York:20260826T083000
 DTEND;TZID=America/New_York:20260826T090000
-SUMMARY:🔴 PCE／Core PCE ★★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★★\n
- 時間以美東時區發布，Apple 行事曆會自動換算台灣時間
- 。\n來源網址：https://www.bea.gov/news/schedule
+SUMMARY:🇺🇸 PCE／Core PCE ★★★★★
+DESCRIPTION:來源：BEA\n重要程度：★★★★★\n時間以美東
+ 時區發布，Apple 行事曆會自動換算台灣時間。\n來源網
+ 址：https://www.bea.gov/news/schedule
 URL:https://www.bea.gov/news/schedule
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🔴 PCE／Core PCE ★★★★★
+DESCRIPTION:🇺🇸 PCE／Core PCE ★★★★★
 TRIGGER:-PT60M
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🔴 PCE／Core PCE ★★★★★
+DESCRIPTION:🇺🇸 PCE／Core PCE ★★★★★
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:d7df052294138ffed3ad71a839171a0de3946da2@roy-us-economic-calendar
 X-ROY-KEY:DURABLE
-DTSTAMP:20260713T112718Z
+DTSTAMP:20260713T121214Z
 DTSTART;TZID=America/New_York:20260826T083000
 DTEND;TZID=America/New_York:20260826T090000
-SUMMARY:🟠 耐久財訂單 ★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★\n時
- 間以美東時區發布，Apple 行事曆會自動換算台灣時間。
- \n來源網址：https://www.census.gov/economic-indicators/calendar-lis
- tview.html
+SUMMARY:🇺🇸 耐久財訂單 ★★★★
+DESCRIPTION:來源：US Census\n重要程度：★★★★\n時間以美
+ 東時區發布，Apple 行事曆會自動換算台灣時間。\n來源
+ 網址：https://www.census.gov/economic-indicators/calendar-listview.ht
+ ml
 URL:https://www.census.gov/economic-indicators/calendar-listview.html
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🟠 耐久財訂單 ★★★★
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:f19940267c565ca889336b055d95476bbd9b5e3d@roy-us-economic-calendar
-X-ROY-KEY:EXISTING:美國 Advance Economic Indicators Report (Internation
- al Trade\\\, Retail\\\, & Wholesale)
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20260827T083000
-DTEND;TZID=America/New_York:20260827T090000
-SUMMARY:美國 Advance Economic Indicators Report (International Trade\, 
- Retail\, & Wholesale)
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★\n時
- 間以美東時區發布，Apple 行事曆會自動換算台灣時間。
- \n來源網址：https://www.census.gov/economic-indicators/calendar-lis
- tview.html
-URL:https://www.census.gov/economic-indicators/calendar-listview.html
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:美國 Advance Economic Indicators Report (International Trad
- e\, Retail\, & Wholesale)
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:b5e166a31129194e0bb13c4b3b257b141d4cea37@roy-us-economic-calendar
-X-ROY-KEY:EXISTING:美國 Construction Spending (Construction Put in Plac
- e)
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20260901T100000
-DTEND;TZID=America/New_York:20260901T103000
-SUMMARY:美國 Construction Spending (Construction Put in Place)
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★\n時
- 間以美東時區發布，Apple 行事曆會自動換算台灣時間。
- \n來源網址：https://www.census.gov/economic-indicators/calendar-lis
- tview.html
-URL:https://www.census.gov/economic-indicators/calendar-listview.html
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:美國 Construction Spending (Construction Put in Place)
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:a387a7a5a98b0c1228b6f75c6ea47b5e44d1a083@roy-us-economic-calendar
-X-ROY-KEY:EXISTING:美國 U.S. International Trade in Goods and Services\
- \\, July 2026
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20260903T083000
-DTEND;TZID=America/New_York:20260903T090000
-SUMMARY:美國 U.S. International Trade in Goods and Services\, July 2026
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★\n時
- 間以美東時區發布，Apple 行事曆會自動換算台灣時間。
- \n來源網址：https://www.bea.gov/news/schedule
-URL:https://www.bea.gov/news/schedule
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:美國 U.S. International Trade in Goods and Services\, July 
- 2026
+DESCRIPTION:🇺🇸 耐久財訂單 ★★★★
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:164e41dbf1f820dcfdd4e24f50fe182f341fd3e8@roy-us-economic-calendar
 X-ROY-KEY:TRADE
-DTSTAMP:20260713T112718Z
+DTSTAMP:20260713T121214Z
 DTSTART;TZID=America/New_York:20260903T083000
 DTEND;TZID=America/New_York:20260903T090000
-SUMMARY:🟠 美國貿易收支 ★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★\n時
- 間以美東時區發布，Apple 行事曆會自動換算台灣時間。
- \n來源網址：https://www.bea.gov/news/schedule
+SUMMARY:🇺🇸 美國貿易收支 ★★★★
+DESCRIPTION:來源：BEA\n重要程度：★★★★\n時間以美東時
+ 區發布，Apple 行事曆會自動換算台灣時間。\n來源網址
+ ：https://www.bea.gov/news/schedule
 URL:https://www.bea.gov/news/schedule
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🟠 美國貿易收支 ★★★★
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:db5a63c900150c6e359c21aedc6cf8343bb29325@roy-us-economic-calendar
-X-ROY-KEY:EXISTING:美國 Advance Monthly Sales for Retail and Food Servi
- ces
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20260916T083000
-DTEND;TZID=America/New_York:20260916T090000
-SUMMARY:美國 Advance Monthly Sales for Retail and Food Services
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★\n時
- 間以美東時區發布，Apple 行事曆會自動換算台灣時間。
- \n來源網址：https://www.census.gov/economic-indicators/calendar-lis
- tview.html
-URL:https://www.census.gov/economic-indicators/calendar-listview.html
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:美國 Advance Monthly Sales for Retail and Food Services
+DESCRIPTION:🇺🇸 美國貿易收支 ★★★★
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:2242d0e54f113acd39c0161c7eaa960a31e2d225@roy-us-economic-calendar
 X-ROY-KEY:RETAIL
-DTSTAMP:20260713T112718Z
+DTSTAMP:20260713T121214Z
 DTSTART;TZID=America/New_York:20260916T083000
 DTEND;TZID=America/New_York:20260916T090000
-SUMMARY:🔴 零售銷售 Retail Sales ★★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★★\n
- 時間以美東時區發布，Apple 行事曆會自動換算台灣時間
- 。\n來源網址：https://www.census.gov/economic-indicators/calendar-
- listview.html
+SUMMARY:🇺🇸 零售銷售 Retail Sales ★★★★★
+DESCRIPTION:來源：US Census\n重要程度：★★★★★\n時間以
+ 美東時區發布，Apple 行事曆會自動換算台灣時間。\n來
+ 源網址：https://www.census.gov/economic-indicators/calendar-listview
+ .html
 URL:https://www.census.gov/economic-indicators/calendar-listview.html
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🔴 零售銷售 Retail Sales ★★★★★
+DESCRIPTION:🇺🇸 零售銷售 Retail Sales ★★★★★
 TRIGGER:-PT60M
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🔴 零售銷售 Retail Sales ★★★★★
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:6a2b20a551eae8629b76998b04602a19e2f1ea51@roy-us-economic-calendar
-X-ROY-KEY:EXISTING:美國 FOMC 利率決議 / Statement
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20260916T140000
-DTEND;TZID=America/New_York:20260916T143000
-SUMMARY:美國 FOMC 利率決議 / Statement
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★\n時
- 間以美東時區發布，Apple 行事曆會自動換算台灣時間。
- \n來源網址：https://www.federalreserve.gov/monetarypolicy/fomccalen
- dars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:美國 FOMC 利率決議 / Statement
+DESCRIPTION:🇺🇸 零售銷售 Retail Sales ★★★★★
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:44fdfc18e02a62b70fc19d1258110e8c980aae32@roy-us-economic-calendar
 X-ROY-KEY:FOMC
-DTSTAMP:20260713T112718Z
+DTSTAMP:20260713T121214Z
 DTSTART;TZID=America/New_York:20260916T140000
 DTEND;TZID=America/New_York:20260916T143000
-SUMMARY:🔴 FOMC 利率決議 ★★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★★\n
- 時間以美東時區發布，Apple 行事曆會自動換算台灣時間
- 。\n來源網址：https://www.federalreserve.gov/monetarypolicy/fomcca
- lendars.htm
+SUMMARY:🇺🇸 FOMC 利率決議 ★★★★★
+DESCRIPTION:來源：Federal Reserve\n重要程度：★★★★★\n僅
+ 使用已核對的聯準會會議結束日。\n時間以美東時區發
+ 布，Apple 行事曆會自動換算台灣時間。\n來源網址：http
+ s://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
 URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🔴 FOMC 利率決議 ★★★★★
+DESCRIPTION:🇺🇸 FOMC 利率決議 ★★★★★
 TRIGGER:-PT60M
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🔴 FOMC 利率決議 ★★★★★
+DESCRIPTION:🇺🇸 FOMC 利率決議 ★★★★★
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:1940f29f7a87d193acea020a83c91414ff5f2882@roy-us-economic-calendar
 X-ROY-KEY:FOMC_PRESS
-DTSTAMP:20260713T112718Z
+DTSTAMP:20260713T121214Z
 DTSTART;TZID=America/New_York:20260916T143000
-DTEND;TZID=America/New_York:20260916T150000
-SUMMARY:🔴 Fed 主席記者會 ★★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★★\n
- 時間以美東時區發布，Apple 行事曆會自動換算台灣時間
- 。\n來源網址：https://www.federalreserve.gov/monetarypolicy/fomcca
- lendars.htm
+DTEND;TZID=America/New_York:20260916T153000
+SUMMARY:🇺🇸 Fed 主席記者會 ★★★★★
+DESCRIPTION:來源：Federal Reserve\n重要程度：★★★★★\n記
+ 者會時間固定排在利率決議後 30 分鐘。\n時間以美東時
+ 區發布，Apple 行事曆會自動換算台灣時間。\n來源網址
+ ：https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
 URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🔴 Fed 主席記者會 ★★★★★
+DESCRIPTION:🇺🇸 Fed 主席記者會 ★★★★★
 TRIGGER:-PT60M
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🔴 Fed 主席記者會 ★★★★★
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fee1e1ea839730efa8145248fddd06f878007382@roy-us-economic-calendar
-X-ROY-KEY:EXISTING:美國 New Residential Construction (Building Permits\
- \\, Housing Starts\\\, and Housing Completions)
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20260917T083000
-DTEND;TZID=America/New_York:20260917T090000
-SUMMARY:美國 New Residential Construction (Building Permits\, Housing S
- tarts\, and Housing Completions)
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★\n時
- 間以美東時區發布，Apple 行事曆會自動換算台灣時間。
- \n來源網址：https://www.census.gov/economic-indicators/calendar-lis
- tview.html
-URL:https://www.census.gov/economic-indicators/calendar-listview.html
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:美國 New Residential Construction (Building Permits\, Housi
- ng Starts\, and Housing Completions)
+DESCRIPTION:🇺🇸 Fed 主席記者會 ★★★★★
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:71a5235a78721a10bf64084d37389b74328b3e30@roy-us-economic-calendar
 X-ROY-KEY:HOUSING_STARTS
-DTSTAMP:20260713T112718Z
+DTSTAMP:20260713T121214Z
 DTSTART;TZID=America/New_York:20260917T083000
 DTEND;TZID=America/New_York:20260917T090000
-SUMMARY:🟠 新屋開工／營建許可 ★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★\n時
- 間以美東時區發布，Apple 行事曆會自動換算台灣時間。
- \n來源網址：https://www.census.gov/economic-indicators/calendar-lis
- tview.html
+SUMMARY:🇺🇸 新屋開工／營建許可 ★★★★
+DESCRIPTION:來源：US Census\n重要程度：★★★★\n時間以美
+ 東時區發布，Apple 行事曆會自動換算台灣時間。\n來源
+ 網址：https://www.census.gov/economic-indicators/calendar-listview.ht
+ ml
 URL:https://www.census.gov/economic-indicators/calendar-listview.html
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🟠 新屋開工／營建許可 ★★★★
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:e68c4e7a5e148126a45e394f32000e5812e45d11@roy-us-economic-calendar
-X-ROY-KEY:EXISTING:美國 FOMC 利率決議 / Statement
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20260917T140000
-DTEND;TZID=America/New_York:20260917T143000
-SUMMARY:美國 FOMC 利率決議 / Statement
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★\n時
- 間以美東時區發布，Apple 行事曆會自動換算台灣時間。
- \n來源網址：https://www.federalreserve.gov/monetarypolicy/fomccalen
- dars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:美國 FOMC 利率決議 / Statement
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:d1d3932fe05de7ccaf325e18bf23819e9be43b0c@roy-us-economic-calendar
-X-ROY-KEY:FOMC
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20260917T140000
-DTEND;TZID=America/New_York:20260917T143000
-SUMMARY:🔴 FOMC 利率決議 ★★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★★\n
- 時間以美東時區發布，Apple 行事曆會自動換算台灣時間
- 。\n來源網址：https://www.federalreserve.gov/monetarypolicy/fomcca
- lendars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 FOMC 利率決議 ★★★★★
-TRIGGER:-PT60M
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 FOMC 利率決議 ★★★★★
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:ca30a9e3b27396064c047e69966eaed92ff141ab@roy-us-economic-calendar
-X-ROY-KEY:FOMC_PRESS
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20260917T143000
-DTEND;TZID=America/New_York:20260917T150000
-SUMMARY:🔴 Fed 主席記者會 ★★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★★\n
- 時間以美東時區發布，Apple 行事曆會自動換算台灣時間
- 。\n來源網址：https://www.federalreserve.gov/monetarypolicy/fomcca
- lendars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 Fed 主席記者會 ★★★★★
-TRIGGER:-PT60M
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 Fed 主席記者會 ★★★★★
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:87ef6cd692aff595e5ad6db1b0897b8b2fa0e39b@roy-us-economic-calendar
-X-ROY-KEY:EXISTING:美國 FOMC 利率決議 / Statement
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20260918T140000
-DTEND;TZID=America/New_York:20260918T143000
-SUMMARY:美國 FOMC 利率決議 / Statement
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★\n時
- 間以美東時區發布，Apple 行事曆會自動換算台灣時間。
- \n來源網址：https://www.federalreserve.gov/monetarypolicy/fomccalen
- dars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:美國 FOMC 利率決議 / Statement
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:7e4c890e3e9fde4ddc2cfe82cf282f182b075b87@roy-us-economic-calendar
-X-ROY-KEY:FOMC
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20260918T140000
-DTEND;TZID=America/New_York:20260918T143000
-SUMMARY:🔴 FOMC 利率決議 ★★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★★\n
- 時間以美東時區發布，Apple 行事曆會自動換算台灣時間
- 。\n來源網址：https://www.federalreserve.gov/monetarypolicy/fomcca
- lendars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 FOMC 利率決議 ★★★★★
-TRIGGER:-PT60M
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 FOMC 利率決議 ★★★★★
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:9b8684bc0aedde34a4ec443d5ccb4905e128a607@roy-us-economic-calendar
-X-ROY-KEY:FOMC_PRESS
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20260918T143000
-DTEND;TZID=America/New_York:20260918T150000
-SUMMARY:🔴 Fed 主席記者會 ★★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★★\n
- 時間以美東時區發布，Apple 行事曆會自動換算台灣時間
- 。\n來源網址：https://www.federalreserve.gov/monetarypolicy/fomcca
- lendars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 Fed 主席記者會 ★★★★★
-TRIGGER:-PT60M
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 Fed 主席記者會 ★★★★★
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:1656a23564e275987daa955bc65465b000589d70@roy-us-economic-calendar
-X-ROY-KEY:EXISTING:美國 FOMC 利率決議 / Statement
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20260920T140000
-DTEND;TZID=America/New_York:20260920T143000
-SUMMARY:美國 FOMC 利率決議 / Statement
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★\n時
- 間以美東時區發布，Apple 行事曆會自動換算台灣時間。
- \n來源網址：https://www.federalreserve.gov/monetarypolicy/fomccalen
- dars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:美國 FOMC 利率決議 / Statement
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:49966c53d2f6fb019fa7db9507cd4a744f5690f4@roy-us-economic-calendar
-X-ROY-KEY:FOMC
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20260920T140000
-DTEND;TZID=America/New_York:20260920T143000
-SUMMARY:🔴 FOMC 利率決議 ★★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★★\n
- 時間以美東時區發布，Apple 行事曆會自動換算台灣時間
- 。\n來源網址：https://www.federalreserve.gov/monetarypolicy/fomcca
- lendars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 FOMC 利率決議 ★★★★★
-TRIGGER:-PT60M
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 FOMC 利率決議 ★★★★★
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:0f3c8edd6a6f0b0509a070499efac73d188947a9@roy-us-economic-calendar
-X-ROY-KEY:FOMC_PRESS
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20260920T143000
-DTEND;TZID=America/New_York:20260920T150000
-SUMMARY:🔴 Fed 主席記者會 ★★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★★\n
- 時間以美東時區發布，Apple 行事曆會自動換算台灣時間
- 。\n來源網址：https://www.federalreserve.gov/monetarypolicy/fomcca
- lendars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 Fed 主席記者會 ★★★★★
-TRIGGER:-PT60M
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 Fed 主席記者會 ★★★★★
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:f84606b1e1825b4eb41567b6cc0468774e4ffa3b@roy-us-economic-calendar
-X-ROY-KEY:EXISTING:美國 FOMC 利率決議 / Statement
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20260921T140000
-DTEND;TZID=America/New_York:20260921T143000
-SUMMARY:美國 FOMC 利率決議 / Statement
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★\n時
- 間以美東時區發布，Apple 行事曆會自動換算台灣時間。
- \n來源網址：https://www.federalreserve.gov/monetarypolicy/fomccalen
- dars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:美國 FOMC 利率決議 / Statement
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:ecf1418bfb74f8abb5ea18a52861dc12f129837d@roy-us-economic-calendar
-X-ROY-KEY:FOMC
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20260921T140000
-DTEND;TZID=America/New_York:20260921T143000
-SUMMARY:🔴 FOMC 利率決議 ★★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★★\n
- 時間以美東時區發布，Apple 行事曆會自動換算台灣時間
- 。\n來源網址：https://www.federalreserve.gov/monetarypolicy/fomcca
- lendars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 FOMC 利率決議 ★★★★★
-TRIGGER:-PT60M
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 FOMC 利率決議 ★★★★★
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:cff111879c3f88ac69987c59b8655d46b2b2a26d@roy-us-economic-calendar
-X-ROY-KEY:FOMC_PRESS
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20260921T143000
-DTEND;TZID=America/New_York:20260921T150000
-SUMMARY:🔴 Fed 主席記者會 ★★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★★\n
- 時間以美東時區發布，Apple 行事曆會自動換算台灣時間
- 。\n來源網址：https://www.federalreserve.gov/monetarypolicy/fomcca
- lendars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 Fed 主席記者會 ★★★★★
-TRIGGER:-PT60M
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 Fed 主席記者會 ★★★★★
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:5d44f5f484cc271c1a45dc97e71d2f120ae20d68@roy-us-economic-calendar
-X-ROY-KEY:EXISTING:美國 FOMC 利率決議 / Statement
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20260922T140000
-DTEND;TZID=America/New_York:20260922T143000
-SUMMARY:美國 FOMC 利率決議 / Statement
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★\n時
- 間以美東時區發布，Apple 行事曆會自動換算台灣時間。
- \n來源網址：https://www.federalreserve.gov/monetarypolicy/fomccalen
- dars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:美國 FOMC 利率決議 / Statement
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:2948e6052cf02e17847343efa69ce5e2cd83e8cf@roy-us-economic-calendar
-X-ROY-KEY:FOMC
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20260922T140000
-DTEND;TZID=America/New_York:20260922T143000
-SUMMARY:🔴 FOMC 利率決議 ★★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★★\n
- 時間以美東時區發布，Apple 行事曆會自動換算台灣時間
- 。\n來源網址：https://www.federalreserve.gov/monetarypolicy/fomcca
- lendars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 FOMC 利率決議 ★★★★★
-TRIGGER:-PT60M
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 FOMC 利率決議 ★★★★★
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:b6995e4b9974d69fa30373adb350b439b616d768@roy-us-economic-calendar
-X-ROY-KEY:FOMC_PRESS
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20260922T143000
-DTEND;TZID=America/New_York:20260922T150000
-SUMMARY:🔴 Fed 主席記者會 ★★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★★\n
- 時間以美東時區發布，Apple 行事曆會自動換算台灣時間
- 。\n來源網址：https://www.federalreserve.gov/monetarypolicy/fomcca
- lendars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 Fed 主席記者會 ★★★★★
-TRIGGER:-PT60M
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 Fed 主席記者會 ★★★★★
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:391956b37a2c94483a17a6c07c426fd691305201@roy-us-economic-calendar
-X-ROY-KEY:EXISTING:美國 New Residential Sales
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20260924T100000
-DTEND;TZID=America/New_York:20260924T103000
-SUMMARY:美國 New Residential Sales
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★\n時
- 間以美東時區發布，Apple 行事曆會自動換算台灣時間。
- \n來源網址：https://www.census.gov/economic-indicators/calendar-lis
- tview.html
-URL:https://www.census.gov/economic-indicators/calendar-listview.html
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:美國 New Residential Sales
+DESCRIPTION:🇺🇸 新屋開工／營建許可 ★★★★
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:2fe69b0853ea3836aca1e32c5bc2882235c08550@roy-us-economic-calendar
 X-ROY-KEY:NEW_HOME
-DTSTAMP:20260713T112718Z
+DTSTAMP:20260713T121214Z
 DTSTART;TZID=America/New_York:20260924T100000
 DTEND;TZID=America/New_York:20260924T103000
-SUMMARY:🟠 新屋銷售 ★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★\n時
- 間以美東時區發布，Apple 行事曆會自動換算台灣時間。
- \n來源網址：https://www.census.gov/economic-indicators/calendar-lis
- tview.html
+SUMMARY:🇺🇸 新屋銷售 ★★★★
+DESCRIPTION:來源：US Census\n重要程度：★★★★\n時間以美
+ 東時區發布，Apple 行事曆會自動換算台灣時間。\n來源
+ 網址：https://www.census.gov/economic-indicators/calendar-listview.ht
+ ml
 URL:https://www.census.gov/economic-indicators/calendar-listview.html
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🟠 新屋銷售 ★★★★
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:517cf8b5ae54daeb1c24e46c66d55b881ed84a4a@roy-us-economic-calendar
-X-ROY-KEY:EXISTING:美國 Advance Report on Durable Goods--Manufacturers'
-  Shipments\\\, Inventories\\\, and Orders
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20260925T083000
-DTEND;TZID=America/New_York:20260925T090000
-SUMMARY:美國 Advance Report on Durable Goods--Manufacturers' Shipments\
- , Inventories\, and Orders
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★\n時
- 間以美東時區發布，Apple 行事曆會自動換算台灣時間。
- \n來源網址：https://www.census.gov/economic-indicators/calendar-lis
- tview.html
-URL:https://www.census.gov/economic-indicators/calendar-listview.html
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:美國 Advance Report on Durable Goods--Manufacturers' Shipme
- nts\, Inventories\, and Orders
+DESCRIPTION:🇺🇸 新屋銷售 ★★★★
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:334068192c24c9647934904ad8e74a82a8575ad4@roy-us-economic-calendar
 X-ROY-KEY:DURABLE
-DTSTAMP:20260713T112718Z
+DTSTAMP:20260713T121214Z
 DTSTART;TZID=America/New_York:20260925T083000
 DTEND;TZID=America/New_York:20260925T090000
-SUMMARY:🟠 耐久財訂單 ★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★\n時
- 間以美東時區發布，Apple 行事曆會自動換算台灣時間。
- \n來源網址：https://www.census.gov/economic-indicators/calendar-lis
- tview.html
+SUMMARY:🇺🇸 耐久財訂單 ★★★★
+DESCRIPTION:來源：US Census\n重要程度：★★★★\n時間以美
+ 東時區發布，Apple 行事曆會自動換算台灣時間。\n來源
+ 網址：https://www.census.gov/economic-indicators/calendar-listview.ht
+ ml
 URL:https://www.census.gov/economic-indicators/calendar-listview.html
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🟠 耐久財訂單 ★★★★
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:9ede6292cee97fdcc0ece547c6ee0b6f9fb9816a@roy-us-economic-calendar
-X-ROY-KEY:EXISTING:美國 GDP (Third Estimate)\\\, Industries\\\, Corpora
- te Profits\\\, State GDP\\\, and State Personal Income\\\, 2nd Quarter 2
- 026\\\; State PCE\\\, 2025
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20260930T083000
-DTEND;TZID=America/New_York:20260930T090000
-SUMMARY:美國 GDP (Third Estimate)\, Industries\, Corporate Profits\, St
- ate GDP\, and State Personal Income\, 2nd Quarter 2026\; State PCE\, 202
- 5
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★\n時
- 間以美東時區發布，Apple 行事曆會自動換算台灣時間。
- \n來源網址：https://www.bea.gov/news/schedule
-URL:https://www.bea.gov/news/schedule
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:美國 GDP (Third Estimate)\, Industries\, Corporate Profits\
- , State GDP\, and State Personal Income\, 2nd Quarter 2026\; State PCE\,
-  2025
+DESCRIPTION:🇺🇸 耐久財訂單 ★★★★
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:846f9c801b30a1b552ce2c9ac0d6d0e40acc309d@roy-us-economic-calendar
 X-ROY-KEY:PCE
-DTSTAMP:20260713T112718Z
+DTSTAMP:20260713T121214Z
 DTSTART;TZID=America/New_York:20260930T083000
 DTEND;TZID=America/New_York:20260930T090000
-SUMMARY:🔴 PCE／Core PCE ★★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★★\n
- 時間以美東時區發布，Apple 行事曆會自動換算台灣時間
- 。\n來源網址：https://www.bea.gov/news/schedule
+SUMMARY:🇺🇸 PCE／Core PCE ★★★★★
+DESCRIPTION:來源：BEA\n重要程度：★★★★★\n時間以美東
+ 時區發布，Apple 行事曆會自動換算台灣時間。\n來源網
+ 址：https://www.bea.gov/news/schedule
 URL:https://www.bea.gov/news/schedule
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🔴 PCE／Core PCE ★★★★★
+DESCRIPTION:🇺🇸 PCE／Core PCE ★★★★★
 TRIGGER:-PT60M
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🔴 PCE／Core PCE ★★★★★
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:7314324fea07fd63e5ff6e0753bf316724783351@roy-us-economic-calendar
-X-ROY-KEY:EXISTING:美國 Construction Spending (Construction Put in Plac
- e)
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20261001T100000
-DTEND;TZID=America/New_York:20261001T103000
-SUMMARY:美國 Construction Spending (Construction Put in Place)
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★\n時
- 間以美東時區發布，Apple 行事曆會自動換算台灣時間。
- \n來源網址：https://www.census.gov/economic-indicators/calendar-lis
- tview.html
-URL:https://www.census.gov/economic-indicators/calendar-listview.html
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:美國 Construction Spending (Construction Put in Place)
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:5916917330fce49e2988f487e7b8cfa0e11f9600@roy-us-economic-calendar
-X-ROY-KEY:EXISTING:美國 U.S. International Trade in Goods and Services\
- \\, August 2026
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20261006T083000
-DTEND;TZID=America/New_York:20261006T090000
-SUMMARY:美國 U.S. International Trade in Goods and Services\, August 20
- 26
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★\n時
- 間以美東時區發布，Apple 行事曆會自動換算台灣時間。
- \n來源網址：https://www.bea.gov/news/schedule
-URL:https://www.bea.gov/news/schedule
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:美國 U.S. International Trade in Goods and Services\, Augus
- t 2026
+DESCRIPTION:🇺🇸 PCE／Core PCE ★★★★★
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:d9c67c50091885a488df5ca55ffeebbbb1da41ed@roy-us-economic-calendar
 X-ROY-KEY:TRADE
-DTSTAMP:20260713T112718Z
+DTSTAMP:20260713T121214Z
 DTSTART;TZID=America/New_York:20261006T083000
 DTEND;TZID=America/New_York:20261006T090000
-SUMMARY:🟠 美國貿易收支 ★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★\n時
- 間以美東時區發布，Apple 行事曆會自動換算台灣時間。
- \n來源網址：https://www.bea.gov/news/schedule
+SUMMARY:🇺🇸 美國貿易收支 ★★★★
+DESCRIPTION:來源：BEA\n重要程度：★★★★\n時間以美東時
+ 區發布，Apple 行事曆會自動換算台灣時間。\n來源網址
+ ：https://www.bea.gov/news/schedule
 URL:https://www.bea.gov/news/schedule
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🟠 美國貿易收支 ★★★★
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:6ed4c6d5b168a11d489f106b16a8d32d70aa15db@roy-us-economic-calendar
-X-ROY-KEY:EXISTING:美國 FOMC 利率決議 / Statement
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20261008T140000
-DTEND;TZID=America/New_York:20261008T143000
-SUMMARY:美國 FOMC 利率決議 / Statement
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★\n時
- 間以美東時區發布，Apple 行事曆會自動換算台灣時間。
- \n來源網址：https://www.federalreserve.gov/monetarypolicy/fomccalen
- dars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:美國 FOMC 利率決議 / Statement
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:7ee951218cbfce21dfee2301440f4663495e38a9@roy-us-economic-calendar
-X-ROY-KEY:FOMC
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20261008T140000
-DTEND;TZID=America/New_York:20261008T143000
-SUMMARY:🔴 FOMC 利率決議 ★★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★★\n
- 時間以美東時區發布，Apple 行事曆會自動換算台灣時間
- 。\n來源網址：https://www.federalreserve.gov/monetarypolicy/fomcca
- lendars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 FOMC 利率決議 ★★★★★
-TRIGGER:-PT60M
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 FOMC 利率決議 ★★★★★
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:dce6cc134caf98d97063f8b1a2a355b1d113dada@roy-us-economic-calendar
-X-ROY-KEY:FOMC_PRESS
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20261008T143000
-DTEND;TZID=America/New_York:20261008T150000
-SUMMARY:🔴 Fed 主席記者會 ★★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★★\n
- 時間以美東時區發布，Apple 行事曆會自動換算台灣時間
- 。\n來源網址：https://www.federalreserve.gov/monetarypolicy/fomcca
- lendars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 Fed 主席記者會 ★★★★★
-TRIGGER:-PT60M
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 Fed 主席記者會 ★★★★★
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:4859e3d883850d6bb5333d9d4913386814c44912@roy-us-economic-calendar
-X-ROY-KEY:EXISTING:美國 FOMC 利率決議 / Statement
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20261009T140000
-DTEND;TZID=America/New_York:20261009T143000
-SUMMARY:美國 FOMC 利率決議 / Statement
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★\n時
- 間以美東時區發布，Apple 行事曆會自動換算台灣時間。
- \n來源網址：https://www.federalreserve.gov/monetarypolicy/fomccalen
- dars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:美國 FOMC 利率決議 / Statement
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:f0dfc4261f830b2bd2a4dbbb8231f2b2772e4c68@roy-us-economic-calendar
-X-ROY-KEY:FOMC
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20261009T140000
-DTEND;TZID=America/New_York:20261009T143000
-SUMMARY:🔴 FOMC 利率決議 ★★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★★\n
- 時間以美東時區發布，Apple 行事曆會自動換算台灣時間
- 。\n來源網址：https://www.federalreserve.gov/monetarypolicy/fomcca
- lendars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 FOMC 利率決議 ★★★★★
-TRIGGER:-PT60M
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 FOMC 利率決議 ★★★★★
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:ed6ebcceed35981e8aa21cd43d49fa32148f396e@roy-us-economic-calendar
-X-ROY-KEY:FOMC_PRESS
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20261009T143000
-DTEND;TZID=America/New_York:20261009T150000
-SUMMARY:🔴 Fed 主席記者會 ★★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★★\n
- 時間以美東時區發布，Apple 行事曆會自動換算台灣時間
- 。\n來源網址：https://www.federalreserve.gov/monetarypolicy/fomcca
- lendars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 Fed 主席記者會 ★★★★★
-TRIGGER:-PT60M
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 Fed 主席記者會 ★★★★★
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:9d5dbd42edd5f7f62dfa3bfac34df41c017995f0@roy-us-economic-calendar
-X-ROY-KEY:EXISTING:美國 FOMC 利率決議 / Statement
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20261011T140000
-DTEND;TZID=America/New_York:20261011T143000
-SUMMARY:美國 FOMC 利率決議 / Statement
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★\n時
- 間以美東時區發布，Apple 行事曆會自動換算台灣時間。
- \n來源網址：https://www.federalreserve.gov/monetarypolicy/fomccalen
- dars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:美國 FOMC 利率決議 / Statement
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:d3246da4f3f4f41d4383964bd7d5854879fca6e4@roy-us-economic-calendar
-X-ROY-KEY:FOMC
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20261011T140000
-DTEND;TZID=America/New_York:20261011T143000
-SUMMARY:🔴 FOMC 利率決議 ★★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★★\n
- 時間以美東時區發布，Apple 行事曆會自動換算台灣時間
- 。\n來源網址：https://www.federalreserve.gov/monetarypolicy/fomcca
- lendars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 FOMC 利率決議 ★★★★★
-TRIGGER:-PT60M
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 FOMC 利率決議 ★★★★★
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:5fe2306b941dae5c80bfdbd5aeb4aa46b024545f@roy-us-economic-calendar
-X-ROY-KEY:FOMC_PRESS
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20261011T143000
-DTEND;TZID=America/New_York:20261011T150000
-SUMMARY:🔴 Fed 主席記者會 ★★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★★\n
- 時間以美東時區發布，Apple 行事曆會自動換算台灣時間
- 。\n來源網址：https://www.federalreserve.gov/monetarypolicy/fomcca
- lendars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 Fed 主席記者會 ★★★★★
-TRIGGER:-PT60M
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 Fed 主席記者會 ★★★★★
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:7061f40c0ac0e34e62a69d9483763b5144b66df4@roy-us-economic-calendar
-X-ROY-KEY:EXISTING:美國 FOMC 利率決議 / Statement
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20261012T140000
-DTEND;TZID=America/New_York:20261012T143000
-SUMMARY:美國 FOMC 利率決議 / Statement
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★\n時
- 間以美東時區發布，Apple 行事曆會自動換算台灣時間。
- \n來源網址：https://www.federalreserve.gov/monetarypolicy/fomccalen
- dars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:美國 FOMC 利率決議 / Statement
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:23bf0d9db74fcd785f491186bedd4c79c7f89352@roy-us-economic-calendar
-X-ROY-KEY:FOMC
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20261012T140000
-DTEND;TZID=America/New_York:20261012T143000
-SUMMARY:🔴 FOMC 利率決議 ★★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★★\n
- 時間以美東時區發布，Apple 行事曆會自動換算台灣時間
- 。\n來源網址：https://www.federalreserve.gov/monetarypolicy/fomcca
- lendars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 FOMC 利率決議 ★★★★★
-TRIGGER:-PT60M
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 FOMC 利率決議 ★★★★★
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:36f9a8e08cec661b4ae6ce43bb140a0223316301@roy-us-economic-calendar
-X-ROY-KEY:FOMC_PRESS
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20261012T143000
-DTEND;TZID=America/New_York:20261012T150000
-SUMMARY:🔴 Fed 主席記者會 ★★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★★\n
- 時間以美東時區發布，Apple 行事曆會自動換算台灣時間
- 。\n來源網址：https://www.federalreserve.gov/monetarypolicy/fomcca
- lendars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 Fed 主席記者會 ★★★★★
-TRIGGER:-PT60M
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 Fed 主席記者會 ★★★★★
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:ab53b85533afb9eb4ed31eaeefe0c7aedd9f57ea@roy-us-economic-calendar
-X-ROY-KEY:EXISTING:美國 FOMC 利率決議 / Statement
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20261013T140000
-DTEND;TZID=America/New_York:20261013T143000
-SUMMARY:美國 FOMC 利率決議 / Statement
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★\n時
- 間以美東時區發布，Apple 行事曆會自動換算台灣時間。
- \n來源網址：https://www.federalreserve.gov/monetarypolicy/fomccalen
- dars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:美國 FOMC 利率決議 / Statement
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:2ecc69e3beb40f4bb492001435e6b3f9a2d50b78@roy-us-economic-calendar
-X-ROY-KEY:FOMC
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20261013T140000
-DTEND;TZID=America/New_York:20261013T143000
-SUMMARY:🔴 FOMC 利率決議 ★★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★★\n
- 時間以美東時區發布，Apple 行事曆會自動換算台灣時間
- 。\n來源網址：https://www.federalreserve.gov/monetarypolicy/fomcca
- lendars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 FOMC 利率決議 ★★★★★
-TRIGGER:-PT60M
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 FOMC 利率決議 ★★★★★
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:4f1fe1a7467d9fe8b518de0e2f303b8ff252485a@roy-us-economic-calendar
-X-ROY-KEY:FOMC_PRESS
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20261013T143000
-DTEND;TZID=America/New_York:20261013T150000
-SUMMARY:🔴 Fed 主席記者會 ★★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★★\n
- 時間以美東時區發布，Apple 行事曆會自動換算台灣時間
- 。\n來源網址：https://www.federalreserve.gov/monetarypolicy/fomcca
- lendars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 Fed 主席記者會 ★★★★★
-TRIGGER:-PT60M
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 Fed 主席記者會 ★★★★★
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:060c01e3093d7c8f8db315782d21fe9a29ab4207@roy-us-economic-calendar
-X-ROY-KEY:EXISTING:美國 Advance Monthly Sales for Retail and Food Servi
- ces
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20261015T083000
-DTEND;TZID=America/New_York:20261015T090000
-SUMMARY:美國 Advance Monthly Sales for Retail and Food Services
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★\n時
- 間以美東時區發布，Apple 行事曆會自動換算台灣時間。
- \n來源網址：https://www.census.gov/economic-indicators/calendar-lis
- tview.html
-URL:https://www.census.gov/economic-indicators/calendar-listview.html
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:美國 Advance Monthly Sales for Retail and Food Services
+DESCRIPTION:🇺🇸 美國貿易收支 ★★★★
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:a468a6f8648eb69cb0662c85673220cfecfaa833@roy-us-economic-calendar
 X-ROY-KEY:RETAIL
-DTSTAMP:20260713T112718Z
+DTSTAMP:20260713T121214Z
 DTSTART;TZID=America/New_York:20261015T083000
 DTEND;TZID=America/New_York:20261015T090000
-SUMMARY:🔴 零售銷售 Retail Sales ★★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★★\n
- 時間以美東時區發布，Apple 行事曆會自動換算台灣時間
- 。\n來源網址：https://www.census.gov/economic-indicators/calendar-
- listview.html
+SUMMARY:🇺🇸 零售銷售 Retail Sales ★★★★★
+DESCRIPTION:來源：US Census\n重要程度：★★★★★\n時間以
+ 美東時區發布，Apple 行事曆會自動換算台灣時間。\n來
+ 源網址：https://www.census.gov/economic-indicators/calendar-listview
+ .html
 URL:https://www.census.gov/economic-indicators/calendar-listview.html
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🔴 零售銷售 Retail Sales ★★★★★
+DESCRIPTION:🇺🇸 零售銷售 Retail Sales ★★★★★
 TRIGGER:-PT60M
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🔴 零售銷售 Retail Sales ★★★★★
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:2bc0139448bfad075d4f221467880e7abec8f2ae@roy-us-economic-calendar
-X-ROY-KEY:EXISTING:美國 New Residential Construction (Building Permits\
- \\, Housing Starts\\\, and Housing Completions)
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20261020T083000
-DTEND;TZID=America/New_York:20261020T090000
-SUMMARY:美國 New Residential Construction (Building Permits\, Housing S
- tarts\, and Housing Completions)
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★\n時
- 間以美東時區發布，Apple 行事曆會自動換算台灣時間。
- \n來源網址：https://www.census.gov/economic-indicators/calendar-lis
- tview.html
-URL:https://www.census.gov/economic-indicators/calendar-listview.html
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:美國 New Residential Construction (Building Permits\, Housi
- ng Starts\, and Housing Completions)
+DESCRIPTION:🇺🇸 零售銷售 Retail Sales ★★★★★
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:8be6e394c047dba25e20abce3617b829c55be1f5@roy-us-economic-calendar
 X-ROY-KEY:HOUSING_STARTS
-DTSTAMP:20260713T112718Z
+DTSTAMP:20260713T121214Z
 DTSTART;TZID=America/New_York:20261020T083000
 DTEND;TZID=America/New_York:20261020T090000
-SUMMARY:🟠 新屋開工／營建許可 ★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★\n時
- 間以美東時區發布，Apple 行事曆會自動換算台灣時間。
- \n來源網址：https://www.census.gov/economic-indicators/calendar-lis
- tview.html
+SUMMARY:🇺🇸 新屋開工／營建許可 ★★★★
+DESCRIPTION:來源：US Census\n重要程度：★★★★\n時間以美
+ 東時區發布，Apple 行事曆會自動換算台灣時間。\n來源
+ 網址：https://www.census.gov/economic-indicators/calendar-listview.ht
+ ml
 URL:https://www.census.gov/economic-indicators/calendar-listview.html
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🟠 新屋開工／營建許可 ★★★★
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:3a73bd122999aca4fbbab6b169c45ae90d2cf078@roy-us-economic-calendar
-X-ROY-KEY:EXISTING:美國 Advance Report on Durable Goods--Manufacturers'
-  Shipments\\\, Inventories\\\, and Orders
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20261027T083000
-DTEND;TZID=America/New_York:20261027T090000
-SUMMARY:美國 Advance Report on Durable Goods--Manufacturers' Shipments\
- , Inventories\, and Orders
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★\n時
- 間以美東時區發布，Apple 行事曆會自動換算台灣時間。
- \n來源網址：https://www.census.gov/economic-indicators/calendar-lis
- tview.html
-URL:https://www.census.gov/economic-indicators/calendar-listview.html
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:美國 Advance Report on Durable Goods--Manufacturers' Shipme
- nts\, Inventories\, and Orders
+DESCRIPTION:🇺🇸 新屋開工／營建許可 ★★★★
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:e89678a7b285fc7e639d5a8c112a3fc3a79e291b@roy-us-economic-calendar
 X-ROY-KEY:DURABLE
-DTSTAMP:20260713T112718Z
+DTSTAMP:20260713T121214Z
 DTSTART;TZID=America/New_York:20261027T083000
 DTEND;TZID=America/New_York:20261027T090000
-SUMMARY:🟠 耐久財訂單 ★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★\n時
- 間以美東時區發布，Apple 行事曆會自動換算台灣時間。
- \n來源網址：https://www.census.gov/economic-indicators/calendar-lis
- tview.html
+SUMMARY:🇺🇸 耐久財訂單 ★★★★
+DESCRIPTION:來源：US Census\n重要程度：★★★★\n時間以美
+ 東時區發布，Apple 行事曆會自動換算台灣時間。\n來源
+ 網址：https://www.census.gov/economic-indicators/calendar-listview.ht
+ ml
 URL:https://www.census.gov/economic-indicators/calendar-listview.html
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🟠 耐久財訂單 ★★★★
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:d93768f26ade3d4ab892e859550cbfb9e12df43a@roy-us-economic-calendar
-X-ROY-KEY:EXISTING:美國 New Residential Sales
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20261027T100000
-DTEND;TZID=America/New_York:20261027T103000
-SUMMARY:美國 New Residential Sales
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★\n時
- 間以美東時區發布，Apple 行事曆會自動換算台灣時間。
- \n來源網址：https://www.census.gov/economic-indicators/calendar-lis
- tview.html
-URL:https://www.census.gov/economic-indicators/calendar-listview.html
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:美國 New Residential Sales
+DESCRIPTION:🇺🇸 耐久財訂單 ★★★★
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ee8cf62202c8376ba421ced69d678c7442bb4662@roy-us-economic-calendar
 X-ROY-KEY:NEW_HOME
-DTSTAMP:20260713T112718Z
+DTSTAMP:20260713T121214Z
 DTSTART;TZID=America/New_York:20261027T100000
 DTEND;TZID=America/New_York:20261027T103000
-SUMMARY:🟠 新屋銷售 ★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★\n時
- 間以美東時區發布，Apple 行事曆會自動換算台灣時間。
- \n來源網址：https://www.census.gov/economic-indicators/calendar-lis
- tview.html
+SUMMARY:🇺🇸 新屋銷售 ★★★★
+DESCRIPTION:來源：US Census\n重要程度：★★★★\n時間以美
+ 東時區發布，Apple 行事曆會自動換算台灣時間。\n來源
+ 網址：https://www.census.gov/economic-indicators/calendar-listview.ht
+ ml
 URL:https://www.census.gov/economic-indicators/calendar-listview.html
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🟠 新屋銷售 ★★★★
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:9b18e8496f2fc3ac9135a3606e796e15a052ccc2@roy-us-economic-calendar
-X-ROY-KEY:EXISTING:美國 Advance Economic Indicators Report (Internation
- al Trade\\\, Retail\\\, & Wholesale)
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20261028T083000
-DTEND;TZID=America/New_York:20261028T090000
-SUMMARY:美國 Advance Economic Indicators Report (International Trade\, 
- Retail\, & Wholesale)
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★\n時
- 間以美東時區發布，Apple 行事曆會自動換算台灣時間。
- \n來源網址：https://www.census.gov/economic-indicators/calendar-lis
- tview.html
-URL:https://www.census.gov/economic-indicators/calendar-listview.html
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:美國 Advance Economic Indicators Report (International Trad
- e\, Retail\, & Wholesale)
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:790af25bb620f053ff8a81fd9d1a01e757427fe5@roy-us-economic-calendar
-X-ROY-KEY:EXISTING:美國 FOMC 利率決議 / Statement
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20261028T140000
-DTEND;TZID=America/New_York:20261028T143000
-SUMMARY:美國 FOMC 利率決議 / Statement
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★\n時
- 間以美東時區發布，Apple 行事曆會自動換算台灣時間。
- \n來源網址：https://www.federalreserve.gov/monetarypolicy/fomccalen
- dars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:美國 FOMC 利率決議 / Statement
+DESCRIPTION:🇺🇸 新屋銷售 ★★★★
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:d9d5397e7cc048cd68b816b6dd60cce48ef0edeb@roy-us-economic-calendar
 X-ROY-KEY:FOMC
-DTSTAMP:20260713T112718Z
+DTSTAMP:20260713T121214Z
 DTSTART;TZID=America/New_York:20261028T140000
 DTEND;TZID=America/New_York:20261028T143000
-SUMMARY:🔴 FOMC 利率決議 ★★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★★\n
- 時間以美東時區發布，Apple 行事曆會自動換算台灣時間
- 。\n來源網址：https://www.federalreserve.gov/monetarypolicy/fomcca
- lendars.htm
+SUMMARY:🇺🇸 FOMC 利率決議 ★★★★★
+DESCRIPTION:來源：Federal Reserve\n重要程度：★★★★★\n僅
+ 使用已核對的聯準會會議結束日。\n時間以美東時區發
+ 布，Apple 行事曆會自動換算台灣時間。\n來源網址：http
+ s://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
 URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🔴 FOMC 利率決議 ★★★★★
+DESCRIPTION:🇺🇸 FOMC 利率決議 ★★★★★
 TRIGGER:-PT60M
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🔴 FOMC 利率決議 ★★★★★
+DESCRIPTION:🇺🇸 FOMC 利率決議 ★★★★★
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:865e40e557a7dfc9a2ec7326643e4e637e44892e@roy-us-economic-calendar
 X-ROY-KEY:FOMC_PRESS
-DTSTAMP:20260713T112718Z
+DTSTAMP:20260713T121214Z
 DTSTART;TZID=America/New_York:20261028T143000
-DTEND;TZID=America/New_York:20261028T150000
-SUMMARY:🔴 Fed 主席記者會 ★★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★★\n
- 時間以美東時區發布，Apple 行事曆會自動換算台灣時間
- 。\n來源網址：https://www.federalreserve.gov/monetarypolicy/fomcca
- lendars.htm
+DTEND;TZID=America/New_York:20261028T153000
+SUMMARY:🇺🇸 Fed 主席記者會 ★★★★★
+DESCRIPTION:來源：Federal Reserve\n重要程度：★★★★★\n記
+ 者會時間固定排在利率決議後 30 分鐘。\n時間以美東時
+ 區發布，Apple 行事曆會自動換算台灣時間。\n來源網址
+ ：https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
 URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🔴 Fed 主席記者會 ★★★★★
+DESCRIPTION:🇺🇸 Fed 主席記者會 ★★★★★
 TRIGGER:-PT60M
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🔴 Fed 主席記者會 ★★★★★
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:853327f29592ff96320d232656b6ccfc3d4b2b2f@roy-us-economic-calendar
-X-ROY-KEY:EXISTING:美國 GDP (Advance Estimate)\\\, 3rd Quarter 2026
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20261029T083000
-DTEND;TZID=America/New_York:20261029T090000
-SUMMARY:美國 GDP (Advance Estimate)\, 3rd Quarter 2026
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★\n時
- 間以美東時區發布，Apple 行事曆會自動換算台灣時間。
- \n來源網址：https://www.bea.gov/news/schedule
-URL:https://www.bea.gov/news/schedule
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:美國 GDP (Advance Estimate)\, 3rd Quarter 2026
+DESCRIPTION:🇺🇸 Fed 主席記者會 ★★★★★
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ecb2cbff35c5195234e1668c50aac2dbd08b890d@roy-us-economic-calendar
 X-ROY-KEY:PCE
-DTSTAMP:20260713T112718Z
+DTSTAMP:20260713T121214Z
 DTSTART;TZID=America/New_York:20261029T083000
 DTEND;TZID=America/New_York:20261029T090000
-SUMMARY:🔴 PCE／Core PCE ★★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★★\n
- 時間以美東時區發布，Apple 行事曆會自動換算台灣時間
- 。\n來源網址：https://www.bea.gov/news/schedule
+SUMMARY:🇺🇸 PCE／Core PCE ★★★★★
+DESCRIPTION:來源：BEA\n重要程度：★★★★★\n時間以美東
+ 時區發布，Apple 行事曆會自動換算台灣時間。\n來源網
+ 址：https://www.bea.gov/news/schedule
 URL:https://www.bea.gov/news/schedule
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🔴 PCE／Core PCE ★★★★★
+DESCRIPTION:🇺🇸 PCE／Core PCE ★★★★★
 TRIGGER:-PT60M
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🔴 PCE／Core PCE ★★★★★
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:53d043e63120075cab496aa2d06c0bb9ee34564d@roy-us-economic-calendar
-X-ROY-KEY:EXISTING:美國 FOMC 利率決議 / Statement
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20261029T140000
-DTEND;TZID=America/New_York:20261029T143000
-SUMMARY:美國 FOMC 利率決議 / Statement
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★\n時
- 間以美東時區發布，Apple 行事曆會自動換算台灣時間。
- \n來源網址：https://www.federalreserve.gov/monetarypolicy/fomccalen
- dars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:美國 FOMC 利率決議 / Statement
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:ece73acd63692e9003b236b8722b9dfe99951698@roy-us-economic-calendar
-X-ROY-KEY:FOMC
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20261029T140000
-DTEND;TZID=America/New_York:20261029T143000
-SUMMARY:🔴 FOMC 利率決議 ★★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★★\n
- 時間以美東時區發布，Apple 行事曆會自動換算台灣時間
- 。\n來源網址：https://www.federalreserve.gov/monetarypolicy/fomcca
- lendars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 FOMC 利率決議 ★★★★★
-TRIGGER:-PT60M
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 FOMC 利率決議 ★★★★★
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:4bff32c6a08abcd36cbfd14bb020e1b2a146cb35@roy-us-economic-calendar
-X-ROY-KEY:FOMC_PRESS
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20261029T143000
-DTEND;TZID=America/New_York:20261029T150000
-SUMMARY:🔴 Fed 主席記者會 ★★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★★\n
- 時間以美東時區發布，Apple 行事曆會自動換算台灣時間
- 。\n來源網址：https://www.federalreserve.gov/monetarypolicy/fomcca
- lendars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 Fed 主席記者會 ★★★★★
-TRIGGER:-PT60M
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 Fed 主席記者會 ★★★★★
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:28f6b04ca8be1c8b0a561f9b0bb90ce7e12e7aad@roy-us-economic-calendar
-X-ROY-KEY:EXISTING:美國 Construction Spending (Construction Put in Plac
- e)
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20261102T100000
-DTEND;TZID=America/New_York:20261102T103000
-SUMMARY:美國 Construction Spending (Construction Put in Place)
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★\n時
- 間以美東時區發布，Apple 行事曆會自動換算台灣時間。
- \n來源網址：https://www.census.gov/economic-indicators/calendar-lis
- tview.html
-URL:https://www.census.gov/economic-indicators/calendar-listview.html
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:美國 Construction Spending (Construction Put in Place)
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:b4e1133ca893524b807011ebddc657912c53e39b@roy-us-economic-calendar
-X-ROY-KEY:EXISTING:美國 FOMC 利率決議 / Statement
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20261102T140000
-DTEND;TZID=America/New_York:20261102T143000
-SUMMARY:美國 FOMC 利率決議 / Statement
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★\n時
- 間以美東時區發布，Apple 行事曆會自動換算台灣時間。
- \n來源網址：https://www.federalreserve.gov/monetarypolicy/fomccalen
- dars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:美國 FOMC 利率決議 / Statement
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:254cca94685dc3b4a36720072b60ff0c013a79f3@roy-us-economic-calendar
-X-ROY-KEY:FOMC
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20261102T140000
-DTEND;TZID=America/New_York:20261102T143000
-SUMMARY:🔴 FOMC 利率決議 ★★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★★\n
- 時間以美東時區發布，Apple 行事曆會自動換算台灣時間
- 。\n來源網址：https://www.federalreserve.gov/monetarypolicy/fomcca
- lendars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 FOMC 利率決議 ★★★★★
-TRIGGER:-PT60M
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 FOMC 利率決議 ★★★★★
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:cb6997ad2a216a000b0e373d05585b58ad89ca8a@roy-us-economic-calendar
-X-ROY-KEY:FOMC_PRESS
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20261102T143000
-DTEND;TZID=America/New_York:20261102T150000
-SUMMARY:🔴 Fed 主席記者會 ★★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★★\n
- 時間以美東時區發布，Apple 行事曆會自動換算台灣時間
- 。\n來源網址：https://www.federalreserve.gov/monetarypolicy/fomcca
- lendars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 Fed 主席記者會 ★★★★★
-TRIGGER:-PT60M
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 Fed 主席記者會 ★★★★★
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:29f6f1bb2238a15399f56750bee65881f386f053@roy-us-economic-calendar
-X-ROY-KEY:EXISTING:美國 FOMC 利率決議 / Statement
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20261103T140000
-DTEND;TZID=America/New_York:20261103T143000
-SUMMARY:美國 FOMC 利率決議 / Statement
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★\n時
- 間以美東時區發布，Apple 行事曆會自動換算台灣時間。
- \n來源網址：https://www.federalreserve.gov/monetarypolicy/fomccalen
- dars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:美國 FOMC 利率決議 / Statement
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:40a7b25b6823182c83f9baf1c3e0f1e6f2cf7919@roy-us-economic-calendar
-X-ROY-KEY:FOMC
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20261103T140000
-DTEND;TZID=America/New_York:20261103T143000
-SUMMARY:🔴 FOMC 利率決議 ★★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★★\n
- 時間以美東時區發布，Apple 行事曆會自動換算台灣時間
- 。\n來源網址：https://www.federalreserve.gov/monetarypolicy/fomcca
- lendars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 FOMC 利率決議 ★★★★★
-TRIGGER:-PT60M
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 FOMC 利率決議 ★★★★★
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:a10647a9bd05f8b5c6626c359b8bae67f4f0bc90@roy-us-economic-calendar
-X-ROY-KEY:FOMC_PRESS
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20261103T143000
-DTEND;TZID=America/New_York:20261103T150000
-SUMMARY:🔴 Fed 主席記者會 ★★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★★\n
- 時間以美東時區發布，Apple 行事曆會自動換算台灣時間
- 。\n來源網址：https://www.federalreserve.gov/monetarypolicy/fomcca
- lendars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 Fed 主席記者會 ★★★★★
-TRIGGER:-PT60M
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 Fed 主席記者會 ★★★★★
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:f7157355b27b188177337f755f07034b767ef028@roy-us-economic-calendar
-X-ROY-KEY:EXISTING:美國 U.S. International Trade in Goods and Services\
- \\, September 2026
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20261104T083000
-DTEND;TZID=America/New_York:20261104T090000
-SUMMARY:美國 U.S. International Trade in Goods and Services\, September
-  2026
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★\n時
- 間以美東時區發布，Apple 行事曆會自動換算台灣時間。
- \n來源網址：https://www.bea.gov/news/schedule
-URL:https://www.bea.gov/news/schedule
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:美國 U.S. International Trade in Goods and Services\, Septe
- mber 2026
+DESCRIPTION:🇺🇸 PCE／Core PCE ★★★★★
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:97b2645fea6e48b9ea3a6c4703edb99612441b56@roy-us-economic-calendar
 X-ROY-KEY:TRADE
-DTSTAMP:20260713T112718Z
+DTSTAMP:20260713T121214Z
 DTSTART;TZID=America/New_York:20261104T083000
 DTEND;TZID=America/New_York:20261104T090000
-SUMMARY:🟠 美國貿易收支 ★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★\n時
- 間以美東時區發布，Apple 行事曆會自動換算台灣時間。
- \n來源網址：https://www.bea.gov/news/schedule
+SUMMARY:🇺🇸 美國貿易收支 ★★★★
+DESCRIPTION:來源：BEA\n重要程度：★★★★\n時間以美東時
+ 區發布，Apple 行事曆會自動換算台灣時間。\n來源網址
+ ：https://www.bea.gov/news/schedule
 URL:https://www.bea.gov/news/schedule
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🟠 美國貿易收支 ★★★★
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:232bc37c6b8eb28ceb55115a66f53e8c42613a73@roy-us-economic-calendar
-X-ROY-KEY:EXISTING:美國 FOMC 利率決議 / Statement
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20261107T140000
-DTEND;TZID=America/New_York:20261107T143000
-SUMMARY:美國 FOMC 利率決議 / Statement
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★\n時
- 間以美東時區發布，Apple 行事曆會自動換算台灣時間。
- \n來源網址：https://www.federalreserve.gov/monetarypolicy/fomccalen
- dars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:美國 FOMC 利率決議 / Statement
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:f973e4bb7a1a3763563086a994cced45e760ae74@roy-us-economic-calendar
-X-ROY-KEY:FOMC
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20261107T140000
-DTEND;TZID=America/New_York:20261107T143000
-SUMMARY:🔴 FOMC 利率決議 ★★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★★\n
- 時間以美東時區發布，Apple 行事曆會自動換算台灣時間
- 。\n來源網址：https://www.federalreserve.gov/monetarypolicy/fomcca
- lendars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 FOMC 利率決議 ★★★★★
-TRIGGER:-PT60M
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 FOMC 利率決議 ★★★★★
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:99e80edcb63763b879332bf07bb492d670beb944@roy-us-economic-calendar
-X-ROY-KEY:FOMC_PRESS
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20261107T143000
-DTEND;TZID=America/New_York:20261107T150000
-SUMMARY:🔴 Fed 主席記者會 ★★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★★\n
- 時間以美東時區發布，Apple 行事曆會自動換算台灣時間
- 。\n來源網址：https://www.federalreserve.gov/monetarypolicy/fomcca
- lendars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 Fed 主席記者會 ★★★★★
-TRIGGER:-PT60M
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 Fed 主席記者會 ★★★★★
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:8b7bd694d38df37574d9812c3dea4eaac2e3573e@roy-us-economic-calendar
-X-ROY-KEY:EXISTING:美國 Advance Monthly Sales for Retail and Food Servi
- ces
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20261117T083000
-DTEND;TZID=America/New_York:20261117T090000
-SUMMARY:美國 Advance Monthly Sales for Retail and Food Services
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★\n時
- 間以美東時區發布，Apple 行事曆會自動換算台灣時間。
- \n來源網址：https://www.census.gov/economic-indicators/calendar-lis
- tview.html
-URL:https://www.census.gov/economic-indicators/calendar-listview.html
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:美國 Advance Monthly Sales for Retail and Food Services
+DESCRIPTION:🇺🇸 美國貿易收支 ★★★★
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:6188e70eb884c142483b206771f3714c8229601c@roy-us-economic-calendar
 X-ROY-KEY:RETAIL
-DTSTAMP:20260713T112718Z
+DTSTAMP:20260713T121214Z
 DTSTART;TZID=America/New_York:20261117T083000
 DTEND;TZID=America/New_York:20261117T090000
-SUMMARY:🔴 零售銷售 Retail Sales ★★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★★\n
- 時間以美東時區發布，Apple 行事曆會自動換算台灣時間
- 。\n來源網址：https://www.census.gov/economic-indicators/calendar-
- listview.html
+SUMMARY:🇺🇸 零售銷售 Retail Sales ★★★★★
+DESCRIPTION:來源：US Census\n重要程度：★★★★★\n時間以
+ 美東時區發布，Apple 行事曆會自動換算台灣時間。\n來
+ 源網址：https://www.census.gov/economic-indicators/calendar-listview
+ .html
 URL:https://www.census.gov/economic-indicators/calendar-listview.html
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🔴 零售銷售 Retail Sales ★★★★★
+DESCRIPTION:🇺🇸 零售銷售 Retail Sales ★★★★★
 TRIGGER:-PT60M
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🔴 零售銷售 Retail Sales ★★★★★
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:109fa8ec1497a8d5d681d0bb12699e8496193026@roy-us-economic-calendar
-X-ROY-KEY:EXISTING:美國 New Residential Construction (Building Permits\
- \\, Housing Starts\\\, and Housing Completions)
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20261118T083000
-DTEND;TZID=America/New_York:20261118T090000
-SUMMARY:美國 New Residential Construction (Building Permits\, Housing S
- tarts\, and Housing Completions)
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★\n時
- 間以美東時區發布，Apple 行事曆會自動換算台灣時間。
- \n來源網址：https://www.census.gov/economic-indicators/calendar-lis
- tview.html
-URL:https://www.census.gov/economic-indicators/calendar-listview.html
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:美國 New Residential Construction (Building Permits\, Housi
- ng Starts\, and Housing Completions)
+DESCRIPTION:🇺🇸 零售銷售 Retail Sales ★★★★★
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:208a0644e6c5064d72a83aac6ab10d9b5b8b3614@roy-us-economic-calendar
 X-ROY-KEY:HOUSING_STARTS
-DTSTAMP:20260713T112718Z
+DTSTAMP:20260713T121214Z
 DTSTART;TZID=America/New_York:20261118T083000
 DTEND;TZID=America/New_York:20261118T090000
-SUMMARY:🟠 新屋開工／營建許可 ★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★\n時
- 間以美東時區發布，Apple 行事曆會自動換算台灣時間。
- \n來源網址：https://www.census.gov/economic-indicators/calendar-lis
- tview.html
+SUMMARY:🇺🇸 新屋開工／營建許可 ★★★★
+DESCRIPTION:來源：US Census\n重要程度：★★★★\n時間以美
+ 東時區發布，Apple 行事曆會自動換算台灣時間。\n來源
+ 網址：https://www.census.gov/economic-indicators/calendar-listview.ht
+ ml
 URL:https://www.census.gov/economic-indicators/calendar-listview.html
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🟠 新屋開工／營建許可 ★★★★
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:8c07f22eeb19b4c53df2dc353ef0b2354a11eb21@roy-us-economic-calendar
-X-ROY-KEY:EXISTING:美國 FOMC 利率決議 / Statement
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20261119T140000
-DTEND;TZID=America/New_York:20261119T143000
-SUMMARY:美國 FOMC 利率決議 / Statement
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★\n時
- 間以美東時區發布，Apple 行事曆會自動換算台灣時間。
- \n來源網址：https://www.federalreserve.gov/monetarypolicy/fomccalen
- dars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:美國 FOMC 利率決議 / Statement
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:2e223965f2699f12be63b82c9178e9f697664c94@roy-us-economic-calendar
-X-ROY-KEY:FOMC
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20261119T140000
-DTEND;TZID=America/New_York:20261119T143000
-SUMMARY:🔴 FOMC 利率決議 ★★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★★\n
- 時間以美東時區發布，Apple 行事曆會自動換算台灣時間
- 。\n來源網址：https://www.federalreserve.gov/monetarypolicy/fomcca
- lendars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 FOMC 利率決議 ★★★★★
-TRIGGER:-PT60M
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 FOMC 利率決議 ★★★★★
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:40bb3c2f96473972266514b55fe0397026e6b034@roy-us-economic-calendar
-X-ROY-KEY:FOMC_PRESS
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20261119T143000
-DTEND;TZID=America/New_York:20261119T150000
-SUMMARY:🔴 Fed 主席記者會 ★★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★★\n
- 時間以美東時區發布，Apple 行事曆會自動換算台灣時間
- 。\n來源網址：https://www.federalreserve.gov/monetarypolicy/fomcca
- lendars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 Fed 主席記者會 ★★★★★
-TRIGGER:-PT60M
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 Fed 主席記者會 ★★★★★
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:17ee8487458415aa57ce67d95e6c827f587aa0f1@roy-us-economic-calendar
-X-ROY-KEY:EXISTING:美國 FOMC 利率決議 / Statement
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20261121T140000
-DTEND;TZID=America/New_York:20261121T143000
-SUMMARY:美國 FOMC 利率決議 / Statement
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★\n時
- 間以美東時區發布，Apple 行事曆會自動換算台灣時間。
- \n來源網址：https://www.federalreserve.gov/monetarypolicy/fomccalen
- dars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:美國 FOMC 利率決議 / Statement
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fb58b367336133fec0a983263f1dce23adffc108@roy-us-economic-calendar
-X-ROY-KEY:FOMC
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20261121T140000
-DTEND;TZID=America/New_York:20261121T143000
-SUMMARY:🔴 FOMC 利率決議 ★★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★★\n
- 時間以美東時區發布，Apple 行事曆會自動換算台灣時間
- 。\n來源網址：https://www.federalreserve.gov/monetarypolicy/fomcca
- lendars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 FOMC 利率決議 ★★★★★
-TRIGGER:-PT60M
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 FOMC 利率決議 ★★★★★
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:968db595c9189e65875ef6de1152ea53f28e4ba0@roy-us-economic-calendar
-X-ROY-KEY:FOMC_PRESS
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20261121T143000
-DTEND;TZID=America/New_York:20261121T150000
-SUMMARY:🔴 Fed 主席記者會 ★★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★★\n
- 時間以美東時區發布，Apple 行事曆會自動換算台灣時間
- 。\n來源網址：https://www.federalreserve.gov/monetarypolicy/fomcca
- lendars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 Fed 主席記者會 ★★★★★
-TRIGGER:-PT60M
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 Fed 主席記者會 ★★★★★
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:05c62f2a5d8218856bde8f68e526715205994c81@roy-us-economic-calendar
-X-ROY-KEY:EXISTING:美國 FOMC 利率決議 / Statement
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20261123T140000
-DTEND;TZID=America/New_York:20261123T143000
-SUMMARY:美國 FOMC 利率決議 / Statement
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★\n時
- 間以美東時區發布，Apple 行事曆會自動換算台灣時間。
- \n來源網址：https://www.federalreserve.gov/monetarypolicy/fomccalen
- dars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:美國 FOMC 利率決議 / Statement
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:d39e906af652a5dabdd9d5870100d6357e7bca2c@roy-us-economic-calendar
-X-ROY-KEY:FOMC
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20261123T140000
-DTEND;TZID=America/New_York:20261123T143000
-SUMMARY:🔴 FOMC 利率決議 ★★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★★\n
- 時間以美東時區發布，Apple 行事曆會自動換算台灣時間
- 。\n來源網址：https://www.federalreserve.gov/monetarypolicy/fomcca
- lendars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 FOMC 利率決議 ★★★★★
-TRIGGER:-PT60M
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 FOMC 利率決議 ★★★★★
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:2f4a6004c18541726615f8baf0b1666e6204ae4a@roy-us-economic-calendar
-X-ROY-KEY:FOMC_PRESS
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20261123T143000
-DTEND;TZID=America/New_York:20261123T150000
-SUMMARY:🔴 Fed 主席記者會 ★★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★★\n
- 時間以美東時區發布，Apple 行事曆會自動換算台灣時間
- 。\n來源網址：https://www.federalreserve.gov/monetarypolicy/fomcca
- lendars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 Fed 主席記者會 ★★★★★
-TRIGGER:-PT60M
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 Fed 主席記者會 ★★★★★
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:ad65d78555ba588f278a38850fa3adc9339e7825@roy-us-economic-calendar
-X-ROY-KEY:EXISTING:美國 FOMC 利率決議 / Statement
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20261124T140000
-DTEND;TZID=America/New_York:20261124T143000
-SUMMARY:美國 FOMC 利率決議 / Statement
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★\n時
- 間以美東時區發布，Apple 行事曆會自動換算台灣時間。
- \n來源網址：https://www.federalreserve.gov/monetarypolicy/fomccalen
- dars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:美國 FOMC 利率決議 / Statement
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:279564bdce05cd91fc2b37ba3c17b54c8b9d5082@roy-us-economic-calendar
-X-ROY-KEY:FOMC
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20261124T140000
-DTEND;TZID=America/New_York:20261124T143000
-SUMMARY:🔴 FOMC 利率決議 ★★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★★\n
- 時間以美東時區發布，Apple 行事曆會自動換算台灣時間
- 。\n來源網址：https://www.federalreserve.gov/monetarypolicy/fomcca
- lendars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 FOMC 利率決議 ★★★★★
-TRIGGER:-PT60M
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 FOMC 利率決議 ★★★★★
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:12d3a0ca1eb2ba3a3992d1a037038dcae25de7d5@roy-us-economic-calendar
-X-ROY-KEY:FOMC_PRESS
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20261124T143000
-DTEND;TZID=America/New_York:20261124T150000
-SUMMARY:🔴 Fed 主席記者會 ★★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★★\n
- 時間以美東時區發布，Apple 行事曆會自動換算台灣時間
- 。\n來源網址：https://www.federalreserve.gov/monetarypolicy/fomcca
- lendars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 Fed 主席記者會 ★★★★★
-TRIGGER:-PT60M
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 Fed 主席記者會 ★★★★★
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:13347de8cf8d0f321d8240f78dcbcbd7c620cfea@roy-us-economic-calendar
-X-ROY-KEY:EXISTING:美國 GDP (Second Estimate) and Corporate Profits\\\,
-  3rd Quarter 2026
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20261125T083000
-DTEND;TZID=America/New_York:20261125T090000
-SUMMARY:美國 GDP (Second Estimate) and Corporate Profits\, 3rd Quarter 
- 2026
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★\n時
- 間以美東時區發布，Apple 行事曆會自動換算台灣時間。
- \n來源網址：https://www.bea.gov/news/schedule
-URL:https://www.bea.gov/news/schedule
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:美國 GDP (Second Estimate) and Corporate Profits\, 3rd Quar
- ter 2026
+DESCRIPTION:🇺🇸 新屋開工／營建許可 ★★★★
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:9f564c9cc45b1c1f457e9d10c165217c541c5021@roy-us-economic-calendar
 X-ROY-KEY:PCE
-DTSTAMP:20260713T112718Z
+DTSTAMP:20260713T121214Z
 DTSTART;TZID=America/New_York:20261125T083000
 DTEND;TZID=America/New_York:20261125T090000
-SUMMARY:🔴 PCE／Core PCE ★★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★★\n
- 時間以美東時區發布，Apple 行事曆會自動換算台灣時間
- 。\n來源網址：https://www.bea.gov/news/schedule
+SUMMARY:🇺🇸 PCE／Core PCE ★★★★★
+DESCRIPTION:來源：BEA\n重要程度：★★★★★\n時間以美東
+ 時區發布，Apple 行事曆會自動換算台灣時間。\n來源網
+ 址：https://www.bea.gov/news/schedule
 URL:https://www.bea.gov/news/schedule
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🔴 PCE／Core PCE ★★★★★
+DESCRIPTION:🇺🇸 PCE／Core PCE ★★★★★
 TRIGGER:-PT60M
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🔴 PCE／Core PCE ★★★★★
+DESCRIPTION:🇺🇸 PCE／Core PCE ★★★★★
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:672bd409a60182891ab8ce8fd1370180ea0f7ed4@roy-us-economic-calendar
 X-ROY-KEY:DURABLE
-DTSTAMP:20260713T112718Z
+DTSTAMP:20260713T121214Z
 DTSTART;TZID=America/New_York:20261125T083000
 DTEND;TZID=America/New_York:20261125T090000
-SUMMARY:🟠 耐久財訂單 ★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★\n時
- 間以美東時區發布，Apple 行事曆會自動換算台灣時間。
- \n來源網址：https://www.census.gov/economic-indicators/calendar-lis
- tview.html
+SUMMARY:🇺🇸 耐久財訂單 ★★★★
+DESCRIPTION:來源：US Census\n重要程度：★★★★\n時間以美
+ 東時區發布，Apple 行事曆會自動換算台灣時間。\n來源
+ 網址：https://www.census.gov/economic-indicators/calendar-listview.ht
+ ml
 URL:https://www.census.gov/economic-indicators/calendar-listview.html
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🟠 耐久財訂單 ★★★★
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fc1f20fe165fd5bd0c18f1005a517bf9a7c1014b@roy-us-economic-calendar
-X-ROY-KEY:EXISTING:美國 New Residential Sales
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20261125T100000
-DTEND;TZID=America/New_York:20261125T103000
-SUMMARY:美國 New Residential Sales
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★\n時
- 間以美東時區發布，Apple 行事曆會自動換算台灣時間。
- \n來源網址：https://www.census.gov/economic-indicators/calendar-lis
- tview.html
-URL:https://www.census.gov/economic-indicators/calendar-listview.html
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:美國 New Residential Sales
+DESCRIPTION:🇺🇸 耐久財訂單 ★★★★
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:04637b2093c2ebbd6cc2d0b70ae1ca7fda211a37@roy-us-economic-calendar
 X-ROY-KEY:NEW_HOME
-DTSTAMP:20260713T112718Z
+DTSTAMP:20260713T121214Z
 DTSTART;TZID=America/New_York:20261125T100000
 DTEND;TZID=America/New_York:20261125T103000
-SUMMARY:🟠 新屋銷售 ★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★\n時
- 間以美東時區發布，Apple 行事曆會自動換算台灣時間。
- \n來源網址：https://www.census.gov/economic-indicators/calendar-lis
- tview.html
+SUMMARY:🇺🇸 新屋銷售 ★★★★
+DESCRIPTION:來源：US Census\n重要程度：★★★★\n時間以美
+ 東時區發布，Apple 行事曆會自動換算台灣時間。\n來源
+ 網址：https://www.census.gov/economic-indicators/calendar-listview.ht
+ ml
 URL:https://www.census.gov/economic-indicators/calendar-listview.html
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🟠 新屋銷售 ★★★★
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:3e7112a6f4062c282b83130de5118eafd5884833@roy-us-economic-calendar
-X-ROY-KEY:EXISTING:美國 FOMC 利率決議 / Statement
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20261126T140000
-DTEND;TZID=America/New_York:20261126T143000
-SUMMARY:美國 FOMC 利率決議 / Statement
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★\n時
- 間以美東時區發布，Apple 行事曆會自動換算台灣時間。
- \n來源網址：https://www.federalreserve.gov/monetarypolicy/fomccalen
- dars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:美國 FOMC 利率決議 / Statement
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:526efbc19291f518e8235158e42fe19a81f3b1c0@roy-us-economic-calendar
-X-ROY-KEY:FOMC
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20261126T140000
-DTEND;TZID=America/New_York:20261126T143000
-SUMMARY:🔴 FOMC 利率決議 ★★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★★\n
- 時間以美東時區發布，Apple 行事曆會自動換算台灣時間
- 。\n來源網址：https://www.federalreserve.gov/monetarypolicy/fomcca
- lendars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 FOMC 利率決議 ★★★★★
-TRIGGER:-PT60M
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 FOMC 利率決議 ★★★★★
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:81f711bf31552275ae905e92a6ca3a9bdd5f1540@roy-us-economic-calendar
-X-ROY-KEY:FOMC_PRESS
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20261126T143000
-DTEND;TZID=America/New_York:20261126T150000
-SUMMARY:🔴 Fed 主席記者會 ★★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★★\n
- 時間以美東時區發布，Apple 行事曆會自動換算台灣時間
- 。\n來源網址：https://www.federalreserve.gov/monetarypolicy/fomcca
- lendars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 Fed 主席記者會 ★★★★★
-TRIGGER:-PT60M
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 Fed 主席記者會 ★★★★★
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:0ff25c2c0db6b24f46cfd042b618d0b59ddd9291@roy-us-economic-calendar
-X-ROY-KEY:EXISTING:美國 Advance Economic Indicators Report (Internation
- al Trade\\\, Retail\\\, & Wholesale)
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20261127T083000
-DTEND;TZID=America/New_York:20261127T090000
-SUMMARY:美國 Advance Economic Indicators Report (International Trade\, 
- Retail\, & Wholesale)
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★\n時
- 間以美東時區發布，Apple 行事曆會自動換算台灣時間。
- \n來源網址：https://www.census.gov/economic-indicators/calendar-lis
- tview.html
-URL:https://www.census.gov/economic-indicators/calendar-listview.html
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:美國 Advance Economic Indicators Report (International Trad
- e\, Retail\, & Wholesale)
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:a63db9e5b277b791598d1197608bc7660e76e543@roy-us-economic-calendar
-X-ROY-KEY:EXISTING:美國 Construction Spending (Construction Put in Plac
- e)
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20261201T100000
-DTEND;TZID=America/New_York:20261201T103000
-SUMMARY:美國 Construction Spending (Construction Put in Place)
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★\n時
- 間以美東時區發布，Apple 行事曆會自動換算台灣時間。
- \n來源網址：https://www.census.gov/economic-indicators/calendar-lis
- tview.html
-URL:https://www.census.gov/economic-indicators/calendar-listview.html
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:美國 Construction Spending (Construction Put in Place)
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:99756d3c46a5086ca359e239df1eee2839f6fbf4@roy-us-economic-calendar
-X-ROY-KEY:EXISTING:美國 GDP by County and Personal Income by County\\\,
-  2025
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20261202T083000
-DTEND;TZID=America/New_York:20261202T090000
-SUMMARY:美國 GDP by County and Personal Income by County\, 2025
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★\n時
- 間以美東時區發布，Apple 行事曆會自動換算台灣時間。
- \n來源網址：https://www.bea.gov/news/schedule
-URL:https://www.bea.gov/news/schedule
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:美國 GDP by County and Personal Income by County\, 2025
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:d1fc79e6ff0e93272b5fbbd9dbbe32aecf921679@roy-us-economic-calendar
-X-ROY-KEY:EXISTING:美國 U.S. International Trade in Goods and Services\
- \\, October 2026
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20261208T083000
-DTEND;TZID=America/New_York:20261208T090000
-SUMMARY:美國 U.S. International Trade in Goods and Services\, October 2
- 026
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★\n時
- 間以美東時區發布，Apple 行事曆會自動換算台灣時間。
- \n來源網址：https://www.bea.gov/news/schedule
-URL:https://www.bea.gov/news/schedule
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:美國 U.S. International Trade in Goods and Services\, Octob
- er 2026
+DESCRIPTION:🇺🇸 新屋銷售 ★★★★
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:9205498cc23cd3e3aff33b42c90e391db577e456@roy-us-economic-calendar
 X-ROY-KEY:TRADE
-DTSTAMP:20260713T112718Z
+DTSTAMP:20260713T121214Z
 DTSTART;TZID=America/New_York:20261208T083000
 DTEND;TZID=America/New_York:20261208T090000
-SUMMARY:🟠 美國貿易收支 ★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★\n時
- 間以美東時區發布，Apple 行事曆會自動換算台灣時間。
- \n來源網址：https://www.bea.gov/news/schedule
+SUMMARY:🇺🇸 美國貿易收支 ★★★★
+DESCRIPTION:來源：BEA\n重要程度：★★★★\n時間以美東時
+ 區發布，Apple 行事曆會自動換算台灣時間。\n來源網址
+ ：https://www.bea.gov/news/schedule
 URL:https://www.bea.gov/news/schedule
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🟠 美國貿易收支 ★★★★
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:684b9a4a8dd26045b4d9f7eba9895fe0cc6cfc04@roy-us-economic-calendar
-X-ROY-KEY:EXISTING:美國 FOMC 利率決議 / Statement
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20261209T140000
-DTEND;TZID=America/New_York:20261209T143000
-SUMMARY:美國 FOMC 利率決議 / Statement
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★\n時
- 間以美東時區發布，Apple 行事曆會自動換算台灣時間。
- \n來源網址：https://www.federalreserve.gov/monetarypolicy/fomccalen
- dars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:美國 FOMC 利率決議 / Statement
+DESCRIPTION:🇺🇸 美國貿易收支 ★★★★
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:f69c6fc5679c0c4810538ed3b9d433f100fe3b5d@roy-us-economic-calendar
 X-ROY-KEY:FOMC
-DTSTAMP:20260713T112718Z
+DTSTAMP:20260713T121214Z
 DTSTART;TZID=America/New_York:20261209T140000
 DTEND;TZID=America/New_York:20261209T143000
-SUMMARY:🔴 FOMC 利率決議 ★★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★★\n
- 時間以美東時區發布，Apple 行事曆會自動換算台灣時間
- 。\n來源網址：https://www.federalreserve.gov/monetarypolicy/fomcca
- lendars.htm
+SUMMARY:🇺🇸 FOMC 利率決議 ★★★★★
+DESCRIPTION:來源：Federal Reserve\n重要程度：★★★★★\n僅
+ 使用已核對的聯準會會議結束日。\n時間以美東時區發
+ 布，Apple 行事曆會自動換算台灣時間。\n來源網址：http
+ s://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
 URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🔴 FOMC 利率決議 ★★★★★
+DESCRIPTION:🇺🇸 FOMC 利率決議 ★★★★★
 TRIGGER:-PT60M
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🔴 FOMC 利率決議 ★★★★★
+DESCRIPTION:🇺🇸 FOMC 利率決議 ★★★★★
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ba0ca2a3113aa0e57b6ccf4854b40e3ac785cea7@roy-us-economic-calendar
 X-ROY-KEY:FOMC_PRESS
-DTSTAMP:20260713T112718Z
+DTSTAMP:20260713T121214Z
 DTSTART;TZID=America/New_York:20261209T143000
-DTEND;TZID=America/New_York:20261209T150000
-SUMMARY:🔴 Fed 主席記者會 ★★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★★\n
- 時間以美東時區發布，Apple 行事曆會自動換算台灣時間
- 。\n來源網址：https://www.federalreserve.gov/monetarypolicy/fomcca
- lendars.htm
+DTEND;TZID=America/New_York:20261209T153000
+SUMMARY:🇺🇸 Fed 主席記者會 ★★★★★
+DESCRIPTION:來源：Federal Reserve\n重要程度：★★★★★\n記
+ 者會時間固定排在利率決議後 30 分鐘。\n時間以美東時
+ 區發布，Apple 行事曆會自動換算台灣時間。\n來源網址
+ ：https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
 URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🔴 Fed 主席記者會 ★★★★★
+DESCRIPTION:🇺🇸 Fed 主席記者會 ★★★★★
 TRIGGER:-PT60M
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🔴 Fed 主席記者會 ★★★★★
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:22fd19584b6d9a6bac27dcd7eb8e7be9e1f55dde@roy-us-economic-calendar
-X-ROY-KEY:EXISTING:美國 Real Personal Consumption Expenditures by State
-  and Real Personal Income by State\\\, 2025
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20261210T083000
-DTEND;TZID=America/New_York:20261210T090000
-SUMMARY:美國 Real Personal Consumption Expenditures by State and Real P
- ersonal Income by State\, 2025
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★\n時
- 間以美東時區發布，Apple 行事曆會自動換算台灣時間。
- \n來源網址：https://www.bea.gov/news/schedule
-URL:https://www.bea.gov/news/schedule
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:美國 Real Personal Consumption Expenditures by State and Re
- al Personal Income by State\, 2025
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:1230240ad2ed6b5775aaaa8ae898e933bb626015@roy-us-economic-calendar
-X-ROY-KEY:EXISTING:美國 FOMC 利率決議 / Statement
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20261210T140000
-DTEND;TZID=America/New_York:20261210T143000
-SUMMARY:美國 FOMC 利率決議 / Statement
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★\n時
- 間以美東時區發布，Apple 行事曆會自動換算台灣時間。
- \n來源網址：https://www.federalreserve.gov/monetarypolicy/fomccalen
- dars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:美國 FOMC 利率決議 / Statement
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:168bb19891686f6de8138976553860789164af94@roy-us-economic-calendar
-X-ROY-KEY:FOMC
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20261210T140000
-DTEND;TZID=America/New_York:20261210T143000
-SUMMARY:🔴 FOMC 利率決議 ★★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★★\n
- 時間以美東時區發布，Apple 行事曆會自動換算台灣時間
- 。\n來源網址：https://www.federalreserve.gov/monetarypolicy/fomcca
- lendars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 FOMC 利率決議 ★★★★★
-TRIGGER:-PT60M
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 FOMC 利率決議 ★★★★★
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:db360dcf4ba80426977e71b98bd0a4da8a6744ef@roy-us-economic-calendar
-X-ROY-KEY:FOMC_PRESS
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20261210T143000
-DTEND;TZID=America/New_York:20261210T150000
-SUMMARY:🔴 Fed 主席記者會 ★★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★★\n
- 時間以美東時區發布，Apple 行事曆會自動換算台灣時間
- 。\n來源網址：https://www.federalreserve.gov/monetarypolicy/fomcca
- lendars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 Fed 主席記者會 ★★★★★
-TRIGGER:-PT60M
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 Fed 主席記者會 ★★★★★
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:30d44d7a88b05c4401821191d5f031fe92377a34@roy-us-economic-calendar
-X-ROY-KEY:EXISTING:美國 FOMC 利率決議 / Statement
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20261213T140000
-DTEND;TZID=America/New_York:20261213T143000
-SUMMARY:美國 FOMC 利率決議 / Statement
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★\n時
- 間以美東時區發布，Apple 行事曆會自動換算台灣時間。
- \n來源網址：https://www.federalreserve.gov/monetarypolicy/fomccalen
- dars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:美國 FOMC 利率決議 / Statement
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:d2a7797425339999076b8790419850368357fa23@roy-us-economic-calendar
-X-ROY-KEY:FOMC
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20261213T140000
-DTEND;TZID=America/New_York:20261213T143000
-SUMMARY:🔴 FOMC 利率決議 ★★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★★\n
- 時間以美東時區發布，Apple 行事曆會自動換算台灣時間
- 。\n來源網址：https://www.federalreserve.gov/monetarypolicy/fomcca
- lendars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 FOMC 利率決議 ★★★★★
-TRIGGER:-PT60M
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 FOMC 利率決議 ★★★★★
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:9850c070c93f16ef88d08e267896e1a68c61db5f@roy-us-economic-calendar
-X-ROY-KEY:FOMC_PRESS
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20261213T143000
-DTEND;TZID=America/New_York:20261213T150000
-SUMMARY:🔴 Fed 主席記者會 ★★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★★\n
- 時間以美東時區發布，Apple 行事曆會自動換算台灣時間
- 。\n來源網址：https://www.federalreserve.gov/monetarypolicy/fomcca
- lendars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 Fed 主席記者會 ★★★★★
-TRIGGER:-PT60M
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 Fed 主席記者會 ★★★★★
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:8390ef3ac6b2e9e115baa5a51ce89617c6972c58@roy-us-economic-calendar
-X-ROY-KEY:EXISTING:美國 FOMC 利率決議 / Statement
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20261214T140000
-DTEND;TZID=America/New_York:20261214T143000
-SUMMARY:美國 FOMC 利率決議 / Statement
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★\n時
- 間以美東時區發布，Apple 行事曆會自動換算台灣時間。
- \n來源網址：https://www.federalreserve.gov/monetarypolicy/fomccalen
- dars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:美國 FOMC 利率決議 / Statement
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:8ee81414efd7a0291276963cfe43c6b15abff0b8@roy-us-economic-calendar
-X-ROY-KEY:FOMC
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20261214T140000
-DTEND;TZID=America/New_York:20261214T143000
-SUMMARY:🔴 FOMC 利率決議 ★★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★★\n
- 時間以美東時區發布，Apple 行事曆會自動換算台灣時間
- 。\n來源網址：https://www.federalreserve.gov/monetarypolicy/fomcca
- lendars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 FOMC 利率決議 ★★★★★
-TRIGGER:-PT60M
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 FOMC 利率決議 ★★★★★
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:268341d3bb37570c733dcae5f3724e6126aa3207@roy-us-economic-calendar
-X-ROY-KEY:FOMC_PRESS
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20261214T143000
-DTEND;TZID=America/New_York:20261214T150000
-SUMMARY:🔴 Fed 主席記者會 ★★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★★\n
- 時間以美東時區發布，Apple 行事曆會自動換算台灣時間
- 。\n來源網址：https://www.federalreserve.gov/monetarypolicy/fomcca
- lendars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 Fed 主席記者會 ★★★★★
-TRIGGER:-PT60M
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 Fed 主席記者會 ★★★★★
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:c3b5b4ec52dbe702e2ff22345fd19007030a1192@roy-us-economic-calendar
-X-ROY-KEY:EXISTING:美國 FOMC 利率決議 / Statement
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20261215T140000
-DTEND;TZID=America/New_York:20261215T143000
-SUMMARY:美國 FOMC 利率決議 / Statement
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★\n時
- 間以美東時區發布，Apple 行事曆會自動換算台灣時間。
- \n來源網址：https://www.federalreserve.gov/monetarypolicy/fomccalen
- dars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:美國 FOMC 利率決議 / Statement
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:2de759fc60310abdc66c762ef773818760f5d99a@roy-us-economic-calendar
-X-ROY-KEY:FOMC
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20261215T140000
-DTEND;TZID=America/New_York:20261215T143000
-SUMMARY:🔴 FOMC 利率決議 ★★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★★\n
- 時間以美東時區發布，Apple 行事曆會自動換算台灣時間
- 。\n來源網址：https://www.federalreserve.gov/monetarypolicy/fomcca
- lendars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 FOMC 利率決議 ★★★★★
-TRIGGER:-PT60M
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 FOMC 利率決議 ★★★★★
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:90572f4435cda7eb9cc41b875566af84d659ebe3@roy-us-economic-calendar
-X-ROY-KEY:FOMC_PRESS
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20261215T143000
-DTEND;TZID=America/New_York:20261215T150000
-SUMMARY:🔴 Fed 主席記者會 ★★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★★\n
- 時間以美東時區發布，Apple 行事曆會自動換算台灣時間
- 。\n來源網址：https://www.federalreserve.gov/monetarypolicy/fomcca
- lendars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 Fed 主席記者會 ★★★★★
-TRIGGER:-PT60M
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 Fed 主席記者會 ★★★★★
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fe826a1dd0d8a7cab73409ca493779157834e926@roy-us-economic-calendar
-X-ROY-KEY:EXISTING:美國 Advance Monthly Sales for Retail and Food Servi
- ces
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20261216T083000
-DTEND;TZID=America/New_York:20261216T090000
-SUMMARY:美國 Advance Monthly Sales for Retail and Food Services
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★\n時
- 間以美東時區發布，Apple 行事曆會自動換算台灣時間。
- \n來源網址：https://www.census.gov/economic-indicators/calendar-lis
- tview.html
-URL:https://www.census.gov/economic-indicators/calendar-listview.html
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:美國 Advance Monthly Sales for Retail and Food Services
+DESCRIPTION:🇺🇸 Fed 主席記者會 ★★★★★
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:f732fa649a608c3a373c395700ed8df477cd157c@roy-us-economic-calendar
 X-ROY-KEY:RETAIL
-DTSTAMP:20260713T112718Z
+DTSTAMP:20260713T121214Z
 DTSTART;TZID=America/New_York:20261216T083000
 DTEND;TZID=America/New_York:20261216T090000
-SUMMARY:🔴 零售銷售 Retail Sales ★★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★★\n
- 時間以美東時區發布，Apple 行事曆會自動換算台灣時間
- 。\n來源網址：https://www.census.gov/economic-indicators/calendar-
- listview.html
+SUMMARY:🇺🇸 零售銷售 Retail Sales ★★★★★
+DESCRIPTION:來源：US Census\n重要程度：★★★★★\n時間以
+ 美東時區發布，Apple 行事曆會自動換算台灣時間。\n來
+ 源網址：https://www.census.gov/economic-indicators/calendar-listview
+ .html
 URL:https://www.census.gov/economic-indicators/calendar-listview.html
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🔴 零售銷售 Retail Sales ★★★★★
+DESCRIPTION:🇺🇸 零售銷售 Retail Sales ★★★★★
 TRIGGER:-PT60M
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🔴 零售銷售 Retail Sales ★★★★★
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:9fbc8c3c8218acf5009e0dff0fa530df7de323bc@roy-us-economic-calendar
-X-ROY-KEY:EXISTING:美國 New Residential Construction (Building Permits\
- \\, Housing Starts\\\, and Housing Completions)
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20261217T083000
-DTEND;TZID=America/New_York:20261217T090000
-SUMMARY:美國 New Residential Construction (Building Permits\, Housing S
- tarts\, and Housing Completions)
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★\n時
- 間以美東時區發布，Apple 行事曆會自動換算台灣時間。
- \n來源網址：https://www.census.gov/economic-indicators/calendar-lis
- tview.html
-URL:https://www.census.gov/economic-indicators/calendar-listview.html
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:美國 New Residential Construction (Building Permits\, Housi
- ng Starts\, and Housing Completions)
+DESCRIPTION:🇺🇸 零售銷售 Retail Sales ★★★★★
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:c56c73d7c67ccad12bc1e2ffadcc22be0d2bd390@roy-us-economic-calendar
 X-ROY-KEY:HOUSING_STARTS
-DTSTAMP:20260713T112718Z
+DTSTAMP:20260713T121214Z
 DTSTART;TZID=America/New_York:20261217T083000
 DTEND;TZID=America/New_York:20261217T090000
-SUMMARY:🟠 新屋開工／營建許可 ★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★\n時
- 間以美東時區發布，Apple 行事曆會自動換算台灣時間。
- \n來源網址：https://www.census.gov/economic-indicators/calendar-lis
- tview.html
+SUMMARY:🇺🇸 新屋開工／營建許可 ★★★★
+DESCRIPTION:來源：US Census\n重要程度：★★★★\n時間以美
+ 東時區發布，Apple 行事曆會自動換算台灣時間。\n來源
+ 網址：https://www.census.gov/economic-indicators/calendar-listview.ht
+ ml
 URL:https://www.census.gov/economic-indicators/calendar-listview.html
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🟠 新屋開工／營建許可 ★★★★
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:8ab64df1ec9832e8431752b5823ae33975608e34@roy-us-economic-calendar
-X-ROY-KEY:EXISTING:美國 FOMC 利率決議 / Statement
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20261218T140000
-DTEND;TZID=America/New_York:20261218T143000
-SUMMARY:美國 FOMC 利率決議 / Statement
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★\n時
- 間以美東時區發布，Apple 行事曆會自動換算台灣時間。
- \n來源網址：https://www.federalreserve.gov/monetarypolicy/fomccalen
- dars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:美國 FOMC 利率決議 / Statement
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:754935a90873a418d6b6e917f47a37434fc3ec31@roy-us-economic-calendar
-X-ROY-KEY:FOMC
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20261218T140000
-DTEND;TZID=America/New_York:20261218T143000
-SUMMARY:🔴 FOMC 利率決議 ★★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★★\n
- 時間以美東時區發布，Apple 行事曆會自動換算台灣時間
- 。\n來源網址：https://www.federalreserve.gov/monetarypolicy/fomcca
- lendars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 FOMC 利率決議 ★★★★★
-TRIGGER:-PT60M
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 FOMC 利率決議 ★★★★★
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:44a36c4b6f8e9a9e986fafc618a81c9c9248259f@roy-us-economic-calendar
-X-ROY-KEY:FOMC_PRESS
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20261218T143000
-DTEND;TZID=America/New_York:20261218T150000
-SUMMARY:🔴 Fed 主席記者會 ★★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★★\n
- 時間以美東時區發布，Apple 行事曆會自動換算台灣時間
- 。\n來源網址：https://www.federalreserve.gov/monetarypolicy/fomcca
- lendars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 Fed 主席記者會 ★★★★★
-TRIGGER:-PT60M
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 Fed 主席記者會 ★★★★★
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:4c9efa558525273f61fe2bca331c887b7dbaa2da@roy-us-economic-calendar
-X-ROY-KEY:EXISTING:美國 GDP (Third Estimate)\\\, Industries\\\, Corpora
- te Profits\\\, State GDP\\\, and State Personal Income\\\, 3rd Quarter 2
- 026
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20261223T083000
-DTEND;TZID=America/New_York:20261223T090000
-SUMMARY:美國 GDP (Third Estimate)\, Industries\, Corporate Profits\, St
- ate GDP\, and State Personal Income\, 3rd Quarter 2026
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★\n時
- 間以美東時區發布，Apple 行事曆會自動換算台灣時間。
- \n來源網址：https://www.bea.gov/news/schedule
-URL:https://www.bea.gov/news/schedule
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:美國 GDP (Third Estimate)\, Industries\, Corporate Profits\
- , State GDP\, and State Personal Income\, 3rd Quarter 2026
+DESCRIPTION:🇺🇸 新屋開工／營建許可 ★★★★
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fcfaa549ed7a9c2cf92e1bcacd833e1cb95748a0@roy-us-economic-calendar
 X-ROY-KEY:PCE
-DTSTAMP:20260713T112718Z
+DTSTAMP:20260713T121214Z
 DTSTART;TZID=America/New_York:20261223T083000
 DTEND;TZID=America/New_York:20261223T090000
-SUMMARY:🔴 PCE／Core PCE ★★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★★\n
- 時間以美東時區發布，Apple 行事曆會自動換算台灣時間
- 。\n來源網址：https://www.bea.gov/news/schedule
+SUMMARY:🇺🇸 PCE／Core PCE ★★★★★
+DESCRIPTION:來源：BEA\n重要程度：★★★★★\n時間以美東
+ 時區發布，Apple 行事曆會自動換算台灣時間。\n來源網
+ 址：https://www.bea.gov/news/schedule
 URL:https://www.bea.gov/news/schedule
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🔴 PCE／Core PCE ★★★★★
+DESCRIPTION:🇺🇸 PCE／Core PCE ★★★★★
 TRIGGER:-PT60M
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🔴 PCE／Core PCE ★★★★★
+DESCRIPTION:🇺🇸 PCE／Core PCE ★★★★★
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:3c83a2afef41ab02b7e97cb4a54c6e377ddf04b2@roy-us-economic-calendar
 X-ROY-KEY:DURABLE
-DTSTAMP:20260713T112718Z
+DTSTAMP:20260713T121214Z
 DTSTART;TZID=America/New_York:20261223T083000
 DTEND;TZID=America/New_York:20261223T090000
-SUMMARY:🟠 耐久財訂單 ★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★\n時
- 間以美東時區發布，Apple 行事曆會自動換算台灣時間。
- \n來源網址：https://www.census.gov/economic-indicators/calendar-lis
- tview.html
+SUMMARY:🇺🇸 耐久財訂單 ★★★★
+DESCRIPTION:來源：US Census\n重要程度：★★★★\n時間以美
+ 東時區發布，Apple 行事曆會自動換算台灣時間。\n來源
+ 網址：https://www.census.gov/economic-indicators/calendar-listview.ht
+ ml
 URL:https://www.census.gov/economic-indicators/calendar-listview.html
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🟠 耐久財訂單 ★★★★
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:849e7767844306a99db5e68c4548b27f5faa7a96@roy-us-economic-calendar
-X-ROY-KEY:EXISTING:美國 New Residential Sales
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20261223T100000
-DTEND;TZID=America/New_York:20261223T103000
-SUMMARY:美國 New Residential Sales
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★\n時
- 間以美東時區發布，Apple 行事曆會自動換算台灣時間。
- \n來源網址：https://www.census.gov/economic-indicators/calendar-lis
- tview.html
-URL:https://www.census.gov/economic-indicators/calendar-listview.html
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:美國 New Residential Sales
+DESCRIPTION:🇺🇸 耐久財訂單 ★★★★
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:f4a9ea1b1119c2bd22eb406a2992ebc1cb3d82fb@roy-us-economic-calendar
 X-ROY-KEY:NEW_HOME
-DTSTAMP:20260713T112718Z
+DTSTAMP:20260713T121214Z
 DTSTART;TZID=America/New_York:20261223T100000
 DTEND;TZID=America/New_York:20261223T103000
-SUMMARY:🟠 新屋銷售 ★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★\n時
- 間以美東時區發布，Apple 行事曆會自動換算台灣時間。
- \n來源網址：https://www.census.gov/economic-indicators/calendar-lis
- tview.html
+SUMMARY:🇺🇸 新屋銷售 ★★★★
+DESCRIPTION:來源：US Census\n重要程度：★★★★\n時間以美
+ 東時區發布，Apple 行事曆會自動換算台灣時間。\n來源
+ 網址：https://www.census.gov/economic-indicators/calendar-listview.ht
+ ml
 URL:https://www.census.gov/economic-indicators/calendar-listview.html
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🟠 新屋銷售 ★★★★
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:ba472c0238605d986b3999e706e4aa753fef2492@roy-us-economic-calendar
-X-ROY-KEY:EXISTING:美國 Advance Economic Indicators Report (Internation
- al Trade\\\, Retail\\\, & Wholesale)
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20261228T083000
-DTEND;TZID=America/New_York:20261228T090000
-SUMMARY:美國 Advance Economic Indicators Report (International Trade\, 
- Retail\, & Wholesale)
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★\n時
- 間以美東時區發布，Apple 行事曆會自動換算台灣時間。
- \n來源網址：https://www.census.gov/economic-indicators/calendar-lis
- tview.html
-URL:https://www.census.gov/economic-indicators/calendar-listview.html
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:美國 Advance Economic Indicators Report (International Trad
- e\, Retail\, & Wholesale)
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:52d5f7889186d24113aa2e1bceed7d697e531c30@roy-us-economic-calendar
-X-ROY-KEY:EXISTING:美國 FOMC 利率決議 / Statement
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20261230T140000
-DTEND;TZID=America/New_York:20261230T143000
-SUMMARY:美國 FOMC 利率決議 / Statement
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★\n時
- 間以美東時區發布，Apple 行事曆會自動換算台灣時間。
- \n來源網址：https://www.federalreserve.gov/monetarypolicy/fomccalen
- dars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:美國 FOMC 利率決議 / Statement
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:748e30fd1fcbb0afffd9176aa157f3668583af8c@roy-us-economic-calendar
-X-ROY-KEY:FOMC
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20261230T140000
-DTEND;TZID=America/New_York:20261230T143000
-SUMMARY:🔴 FOMC 利率決議 ★★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★★\n
- 時間以美東時區發布，Apple 行事曆會自動換算台灣時間
- 。\n來源網址：https://www.federalreserve.gov/monetarypolicy/fomcca
- lendars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 FOMC 利率決議 ★★★★★
-TRIGGER:-PT60M
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 FOMC 利率決議 ★★★★★
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:22a6ea08f38664b6beff632a682a818ae51134c4@roy-us-economic-calendar
-X-ROY-KEY:FOMC_PRESS
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20261230T143000
-DTEND;TZID=America/New_York:20261230T150000
-SUMMARY:🔴 Fed 主席記者會 ★★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★★\n
- 時間以美東時區發布，Apple 行事曆會自動換算台灣時間
- 。\n來源網址：https://www.federalreserve.gov/monetarypolicy/fomcca
- lendars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 Fed 主席記者會 ★★★★★
-TRIGGER:-PT60M
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 Fed 主席記者會 ★★★★★
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:c17404755424ba3fb9b0990e230811385475766a@roy-us-economic-calendar
-X-ROY-KEY:EXISTING:美國 FOMC 利率決議 / Statement
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20270126T140000
-DTEND;TZID=America/New_York:20270126T143000
-SUMMARY:美國 FOMC 利率決議 / Statement
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★\n時
- 間以美東時區發布，Apple 行事曆會自動換算台灣時間。
- \n來源網址：https://www.federalreserve.gov/monetarypolicy/fomccalen
- dars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:美國 FOMC 利率決議 / Statement
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:0af666872baaa9f486808e0cbbc2e1f8ef9b75e1@roy-us-economic-calendar
-X-ROY-KEY:FOMC
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20270126T140000
-DTEND;TZID=America/New_York:20270126T143000
-SUMMARY:🔴 FOMC 利率決議 ★★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★★\n
- 時間以美東時區發布，Apple 行事曆會自動換算台灣時間
- 。\n來源網址：https://www.federalreserve.gov/monetarypolicy/fomcca
- lendars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 FOMC 利率決議 ★★★★★
-TRIGGER:-PT60M
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 FOMC 利率決議 ★★★★★
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:d93e22bc880854ae401165e45ca7e8287a82e8cf@roy-us-economic-calendar
-X-ROY-KEY:FOMC_PRESS
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20270126T143000
-DTEND;TZID=America/New_York:20270126T150000
-SUMMARY:🔴 Fed 主席記者會 ★★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★★\n
- 時間以美東時區發布，Apple 行事曆會自動換算台灣時間
- 。\n來源網址：https://www.federalreserve.gov/monetarypolicy/fomcca
- lendars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 Fed 主席記者會 ★★★★★
-TRIGGER:-PT60M
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 Fed 主席記者會 ★★★★★
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:0349b7f99a2723fee7c3fe52652794ab1a9fb643@roy-us-economic-calendar
-X-ROY-KEY:EXISTING:美國 FOMC 利率決議 / Statement
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20270127T140000
-DTEND;TZID=America/New_York:20270127T143000
-SUMMARY:美國 FOMC 利率決議 / Statement
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★\n時
- 間以美東時區發布，Apple 行事曆會自動換算台灣時間。
- \n來源網址：https://www.federalreserve.gov/monetarypolicy/fomccalen
- dars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:美國 FOMC 利率決議 / Statement
+DESCRIPTION:🇺🇸 新屋銷售 ★★★★
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:abf3fd709e56e6dd1d05d897cb7aec6a16fcc8ca@roy-us-economic-calendar
 X-ROY-KEY:FOMC
-DTSTAMP:20260713T112718Z
+DTSTAMP:20260713T121214Z
 DTSTART;TZID=America/New_York:20270127T140000
 DTEND;TZID=America/New_York:20270127T143000
-SUMMARY:🔴 FOMC 利率決議 ★★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★★\n
- 時間以美東時區發布，Apple 行事曆會自動換算台灣時間
- 。\n來源網址：https://www.federalreserve.gov/monetarypolicy/fomcca
- lendars.htm
+SUMMARY:🇺🇸 FOMC 利率決議 ★★★★★
+DESCRIPTION:來源：Federal Reserve\n重要程度：★★★★★\n僅
+ 使用已核對的聯準會會議結束日。\n時間以美東時區發
+ 布，Apple 行事曆會自動換算台灣時間。\n來源網址：http
+ s://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
 URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🔴 FOMC 利率決議 ★★★★★
+DESCRIPTION:🇺🇸 FOMC 利率決議 ★★★★★
 TRIGGER:-PT60M
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🔴 FOMC 利率決議 ★★★★★
+DESCRIPTION:🇺🇸 FOMC 利率決議 ★★★★★
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:c9175c72e2dca52bf24a5713a9d07be5d1f7ad87@roy-us-economic-calendar
 X-ROY-KEY:FOMC_PRESS
-DTSTAMP:20260713T112718Z
+DTSTAMP:20260713T121214Z
 DTSTART;TZID=America/New_York:20270127T143000
-DTEND;TZID=America/New_York:20270127T150000
-SUMMARY:🔴 Fed 主席記者會 ★★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★★\n
- 時間以美東時區發布，Apple 行事曆會自動換算台灣時間
- 。\n來源網址：https://www.federalreserve.gov/monetarypolicy/fomcca
- lendars.htm
+DTEND;TZID=America/New_York:20270127T153000
+SUMMARY:🇺🇸 Fed 主席記者會 ★★★★★
+DESCRIPTION:來源：Federal Reserve\n重要程度：★★★★★\n記
+ 者會時間固定排在利率決議後 30 分鐘。\n時間以美東時
+ 區發布，Apple 行事曆會自動換算台灣時間。\n來源網址
+ ：https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
 URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🔴 Fed 主席記者會 ★★★★★
+DESCRIPTION:🇺🇸 Fed 主席記者會 ★★★★★
 TRIGGER:-PT60M
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🔴 Fed 主席記者會 ★★★★★
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:0cc433fed82088a56c1b8974b262d1a80d844a5f@roy-us-economic-calendar
-X-ROY-KEY:EXISTING:美國 FOMC 利率決議 / Statement
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20270317T140000
-DTEND;TZID=America/New_York:20270317T143000
-SUMMARY:美國 FOMC 利率決議 / Statement
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★\n時
- 間以美東時區發布，Apple 行事曆會自動換算台灣時間。
- \n來源網址：https://www.federalreserve.gov/monetarypolicy/fomccalen
- dars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:美國 FOMC 利率決議 / Statement
+DESCRIPTION:🇺🇸 Fed 主席記者會 ★★★★★
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:80813e1170e28f41264b858a72532371ed7b545c@roy-us-economic-calendar
 X-ROY-KEY:FOMC
-DTSTAMP:20260713T112718Z
+DTSTAMP:20260713T121214Z
 DTSTART;TZID=America/New_York:20270317T140000
 DTEND;TZID=America/New_York:20270317T143000
-SUMMARY:🔴 FOMC 利率決議 ★★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★★\n
- 時間以美東時區發布，Apple 行事曆會自動換算台灣時間
- 。\n來源網址：https://www.federalreserve.gov/monetarypolicy/fomcca
- lendars.htm
+SUMMARY:🇺🇸 FOMC 利率決議 ★★★★★
+DESCRIPTION:來源：Federal Reserve\n重要程度：★★★★★\n僅
+ 使用已核對的聯準會會議結束日。\n時間以美東時區發
+ 布，Apple 行事曆會自動換算台灣時間。\n來源網址：http
+ s://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
 URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🔴 FOMC 利率決議 ★★★★★
+DESCRIPTION:🇺🇸 FOMC 利率決議 ★★★★★
 TRIGGER:-PT60M
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🔴 FOMC 利率決議 ★★★★★
+DESCRIPTION:🇺🇸 FOMC 利率決議 ★★★★★
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:2ca2c129dbf580bf4b3021d2af13769e6b48b7dc@roy-us-economic-calendar
 X-ROY-KEY:FOMC_PRESS
-DTSTAMP:20260713T112718Z
+DTSTAMP:20260713T121214Z
 DTSTART;TZID=America/New_York:20270317T143000
-DTEND;TZID=America/New_York:20270317T150000
-SUMMARY:🔴 Fed 主席記者會 ★★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★★\n
- 時間以美東時區發布，Apple 行事曆會自動換算台灣時間
- 。\n來源網址：https://www.federalreserve.gov/monetarypolicy/fomcca
- lendars.htm
+DTEND;TZID=America/New_York:20270317T153000
+SUMMARY:🇺🇸 Fed 主席記者會 ★★★★★
+DESCRIPTION:來源：Federal Reserve\n重要程度：★★★★★\n記
+ 者會時間固定排在利率決議後 30 分鐘。\n時間以美東時
+ 區發布，Apple 行事曆會自動換算台灣時間。\n來源網址
+ ：https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
 URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🔴 Fed 主席記者會 ★★★★★
+DESCRIPTION:🇺🇸 Fed 主席記者會 ★★★★★
 TRIGGER:-PT60M
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🔴 Fed 主席記者會 ★★★★★
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:66ecf334075a45e3303e4f5c340f81481edef30f@roy-us-economic-calendar
-X-ROY-KEY:EXISTING:美國 FOMC 利率決議 / Statement
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20270428T140000
-DTEND;TZID=America/New_York:20270428T143000
-SUMMARY:美國 FOMC 利率決議 / Statement
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★\n時
- 間以美東時區發布，Apple 行事曆會自動換算台灣時間。
- \n來源網址：https://www.federalreserve.gov/monetarypolicy/fomccalen
- dars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:美國 FOMC 利率決議 / Statement
+DESCRIPTION:🇺🇸 Fed 主席記者會 ★★★★★
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:b6e42041449dc0f1151e05a545e9e7e111c8bcfe@roy-us-economic-calendar
 X-ROY-KEY:FOMC
-DTSTAMP:20260713T112718Z
+DTSTAMP:20260713T121214Z
 DTSTART;TZID=America/New_York:20270428T140000
 DTEND;TZID=America/New_York:20270428T143000
-SUMMARY:🔴 FOMC 利率決議 ★★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★★\n
- 時間以美東時區發布，Apple 行事曆會自動換算台灣時間
- 。\n來源網址：https://www.federalreserve.gov/monetarypolicy/fomcca
- lendars.htm
+SUMMARY:🇺🇸 FOMC 利率決議 ★★★★★
+DESCRIPTION:來源：Federal Reserve\n重要程度：★★★★★\n僅
+ 使用已核對的聯準會會議結束日。\n時間以美東時區發
+ 布，Apple 行事曆會自動換算台灣時間。\n來源網址：http
+ s://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
 URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🔴 FOMC 利率決議 ★★★★★
+DESCRIPTION:🇺🇸 FOMC 利率決議 ★★★★★
 TRIGGER:-PT60M
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🔴 FOMC 利率決議 ★★★★★
+DESCRIPTION:🇺🇸 FOMC 利率決議 ★★★★★
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:31df3794588f7008798659c1280fc25b956cd389@roy-us-economic-calendar
 X-ROY-KEY:FOMC_PRESS
-DTSTAMP:20260713T112718Z
+DTSTAMP:20260713T121214Z
 DTSTART;TZID=America/New_York:20270428T143000
-DTEND;TZID=America/New_York:20270428T150000
-SUMMARY:🔴 Fed 主席記者會 ★★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★★\n
- 時間以美東時區發布，Apple 行事曆會自動換算台灣時間
- 。\n來源網址：https://www.federalreserve.gov/monetarypolicy/fomcca
- lendars.htm
+DTEND;TZID=America/New_York:20270428T153000
+SUMMARY:🇺🇸 Fed 主席記者會 ★★★★★
+DESCRIPTION:來源：Federal Reserve\n重要程度：★★★★★\n記
+ 者會時間固定排在利率決議後 30 分鐘。\n時間以美東時
+ 區發布，Apple 行事曆會自動換算台灣時間。\n來源網址
+ ：https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
 URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🔴 Fed 主席記者會 ★★★★★
+DESCRIPTION:🇺🇸 Fed 主席記者會 ★★★★★
 TRIGGER:-PT60M
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🔴 Fed 主席記者會 ★★★★★
+DESCRIPTION:🇺🇸 Fed 主席記者會 ★★★★★
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:0397ab985d7e49cac40fa2eac1feca49d6a149b3@roy-us-economic-calendar
-X-ROY-KEY:EXISTING:美國 FOMC 利率決議 / Statement
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20270609T140000
-DTEND;TZID=America/New_York:20270609T143000
-SUMMARY:美國 FOMC 利率決議 / Statement
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★\n時
- 間以美東時區發布，Apple 行事曆會自動換算台灣時間。
- \n來源網址：https://www.federalreserve.gov/monetarypolicy/fomccalen
- dars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:美國 FOMC 利率決議 / Statement
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:e2893646aa85de327b9766e0e8e7a14e857fbc6a@roy-us-economic-calendar
+UID:2d070d51301174297bb13103ed29c66787fd342f@roy-us-economic-calendar
 X-ROY-KEY:FOMC
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20270609T140000
-DTEND;TZID=America/New_York:20270609T143000
-SUMMARY:🔴 FOMC 利率決議 ★★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★★\n
- 時間以美東時區發布，Apple 行事曆會自動換算台灣時間
- 。\n來源網址：https://www.federalreserve.gov/monetarypolicy/fomcca
- lendars.htm
+DTSTAMP:20260713T121214Z
+DTSTART;TZID=America/New_York:20270616T140000
+DTEND;TZID=America/New_York:20270616T143000
+SUMMARY:🇺🇸 FOMC 利率決議 ★★★★★
+DESCRIPTION:來源：Federal Reserve\n重要程度：★★★★★\n僅
+ 使用已核對的聯準會會議結束日。\n時間以美東時區發
+ 布，Apple 行事曆會自動換算台灣時間。\n來源網址：http
+ s://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
 URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🔴 FOMC 利率決議 ★★★★★
+DESCRIPTION:🇺🇸 FOMC 利率決議 ★★★★★
 TRIGGER:-PT60M
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🔴 FOMC 利率決議 ★★★★★
+DESCRIPTION:🇺🇸 FOMC 利率決議 ★★★★★
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:12086bbb95aa300d45343e3ac0bf2b27bb60eede@roy-us-economic-calendar
+UID:cbda0322900fbd2e96381235541d60e5ea01b80e@roy-us-economic-calendar
 X-ROY-KEY:FOMC_PRESS
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20270609T143000
-DTEND;TZID=America/New_York:20270609T150000
-SUMMARY:🔴 Fed 主席記者會 ★★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★★\n
- 時間以美東時區發布，Apple 行事曆會自動換算台灣時間
- 。\n來源網址：https://www.federalreserve.gov/monetarypolicy/fomcca
- lendars.htm
+DTSTAMP:20260713T121214Z
+DTSTART;TZID=America/New_York:20270616T143000
+DTEND;TZID=America/New_York:20270616T153000
+SUMMARY:🇺🇸 Fed 主席記者會 ★★★★★
+DESCRIPTION:來源：Federal Reserve\n重要程度：★★★★★\n記
+ 者會時間固定排在利率決議後 30 分鐘。\n時間以美東時
+ 區發布，Apple 行事曆會自動換算台灣時間。\n來源網址
+ ：https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
 URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🔴 Fed 主席記者會 ★★★★★
+DESCRIPTION:🇺🇸 Fed 主席記者會 ★★★★★
 TRIGGER:-PT60M
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🔴 Fed 主席記者會 ★★★★★
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:6ae2f150fae5f0526bfd4b265884b852dacfcb8b@roy-us-economic-calendar
-X-ROY-KEY:EXISTING:美國 FOMC 利率決議 / Statement
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20270708T140000
-DTEND;TZID=America/New_York:20270708T143000
-SUMMARY:美國 FOMC 利率決議 / Statement
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★\n時
- 間以美東時區發布，Apple 行事曆會自動換算台灣時間。
- \n來源網址：https://www.federalreserve.gov/monetarypolicy/fomccalen
- dars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:美國 FOMC 利率決議 / Statement
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:35ec85fdf27912a4c7e3f27670adeb505fd40c71@roy-us-economic-calendar
-X-ROY-KEY:FOMC
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20270708T140000
-DTEND;TZID=America/New_York:20270708T143000
-SUMMARY:🔴 FOMC 利率決議 ★★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★★\n
- 時間以美東時區發布，Apple 行事曆會自動換算台灣時間
- 。\n來源網址：https://www.federalreserve.gov/monetarypolicy/fomcca
- lendars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 FOMC 利率決議 ★★★★★
-TRIGGER:-PT60M
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 FOMC 利率決議 ★★★★★
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:414be5f7eead6ff2252f1c28f1d4b0dfceebd7bc@roy-us-economic-calendar
-X-ROY-KEY:FOMC_PRESS
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20270708T143000
-DTEND;TZID=America/New_York:20270708T150000
-SUMMARY:🔴 Fed 主席記者會 ★★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★★\n
- 時間以美東時區發布，Apple 行事曆會自動換算台灣時間
- 。\n來源網址：https://www.federalreserve.gov/monetarypolicy/fomcca
- lendars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 Fed 主席記者會 ★★★★★
-TRIGGER:-PT60M
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🔴 Fed 主席記者會 ★★★★★
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:429f20570d9a6bc4f17b90f4e872ebe2ae9c59df@roy-us-economic-calendar
-X-ROY-KEY:EXISTING:美國 FOMC 利率決議 / Statement
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20270728T140000
-DTEND;TZID=America/New_York:20270728T143000
-SUMMARY:美國 FOMC 利率決議 / Statement
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★\n時
- 間以美東時區發布，Apple 行事曆會自動換算台灣時間。
- \n來源網址：https://www.federalreserve.gov/monetarypolicy/fomccalen
- dars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:美國 FOMC 利率決議 / Statement
+DESCRIPTION:🇺🇸 Fed 主席記者會 ★★★★★
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:8f30ea9424975c6ebd030de2e1a12ca6cc8023da@roy-us-economic-calendar
 X-ROY-KEY:FOMC
-DTSTAMP:20260713T112718Z
+DTSTAMP:20260713T121214Z
 DTSTART;TZID=America/New_York:20270728T140000
 DTEND;TZID=America/New_York:20270728T143000
-SUMMARY:🔴 FOMC 利率決議 ★★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★★\n
- 時間以美東時區發布，Apple 行事曆會自動換算台灣時間
- 。\n來源網址：https://www.federalreserve.gov/monetarypolicy/fomcca
- lendars.htm
+SUMMARY:🇺🇸 FOMC 利率決議 ★★★★★
+DESCRIPTION:來源：Federal Reserve\n重要程度：★★★★★\n僅
+ 使用已核對的聯準會會議結束日。\n時間以美東時區發
+ 布，Apple 行事曆會自動換算台灣時間。\n來源網址：http
+ s://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
 URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🔴 FOMC 利率決議 ★★★★★
+DESCRIPTION:🇺🇸 FOMC 利率決議 ★★★★★
 TRIGGER:-PT60M
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🔴 FOMC 利率決議 ★★★★★
+DESCRIPTION:🇺🇸 FOMC 利率決議 ★★★★★
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:0c0164ba39248df0cbdff3354f8fdcca9d5ce53f@roy-us-economic-calendar
 X-ROY-KEY:FOMC_PRESS
-DTSTAMP:20260713T112718Z
+DTSTAMP:20260713T121214Z
 DTSTART;TZID=America/New_York:20270728T143000
-DTEND;TZID=America/New_York:20270728T150000
-SUMMARY:🔴 Fed 主席記者會 ★★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★★\n
- 時間以美東時區發布，Apple 行事曆會自動換算台灣時間
- 。\n來源網址：https://www.federalreserve.gov/monetarypolicy/fomcca
- lendars.htm
+DTEND;TZID=America/New_York:20270728T153000
+SUMMARY:🇺🇸 Fed 主席記者會 ★★★★★
+DESCRIPTION:來源：Federal Reserve\n重要程度：★★★★★\n記
+ 者會時間固定排在利率決議後 30 分鐘。\n時間以美東時
+ 區發布，Apple 行事曆會自動換算台灣時間。\n來源網址
+ ：https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
 URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🔴 Fed 主席記者會 ★★★★★
+DESCRIPTION:🇺🇸 Fed 主席記者會 ★★★★★
 TRIGGER:-PT60M
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🔴 Fed 主席記者會 ★★★★★
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:20114b2da08e8fabc8fd9a854e6d01781569b32e@roy-us-economic-calendar
-X-ROY-KEY:EXISTING:美國 FOMC 利率決議 / Statement
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20270915T140000
-DTEND;TZID=America/New_York:20270915T143000
-SUMMARY:美國 FOMC 利率決議 / Statement
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★\n時
- 間以美東時區發布，Apple 行事曆會自動換算台灣時間。
- \n來源網址：https://www.federalreserve.gov/monetarypolicy/fomccalen
- dars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:美國 FOMC 利率決議 / Statement
+DESCRIPTION:🇺🇸 Fed 主席記者會 ★★★★★
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:95e53134b3460a7f9d382731b577f5e9a646c70c@roy-us-economic-calendar
 X-ROY-KEY:FOMC
-DTSTAMP:20260713T112718Z
+DTSTAMP:20260713T121214Z
 DTSTART;TZID=America/New_York:20270915T140000
 DTEND;TZID=America/New_York:20270915T143000
-SUMMARY:🔴 FOMC 利率決議 ★★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★★\n
- 時間以美東時區發布，Apple 行事曆會自動換算台灣時間
- 。\n來源網址：https://www.federalreserve.gov/monetarypolicy/fomcca
- lendars.htm
+SUMMARY:🇺🇸 FOMC 利率決議 ★★★★★
+DESCRIPTION:來源：Federal Reserve\n重要程度：★★★★★\n僅
+ 使用已核對的聯準會會議結束日。\n時間以美東時區發
+ 布，Apple 行事曆會自動換算台灣時間。\n來源網址：http
+ s://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
 URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🔴 FOMC 利率決議 ★★★★★
+DESCRIPTION:🇺🇸 FOMC 利率決議 ★★★★★
 TRIGGER:-PT60M
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🔴 FOMC 利率決議 ★★★★★
+DESCRIPTION:🇺🇸 FOMC 利率決議 ★★★★★
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:1a256de66c12a6ec617b25fcbb8522f00819cd9b@roy-us-economic-calendar
 X-ROY-KEY:FOMC_PRESS
-DTSTAMP:20260713T112718Z
+DTSTAMP:20260713T121214Z
 DTSTART;TZID=America/New_York:20270915T143000
-DTEND;TZID=America/New_York:20270915T150000
-SUMMARY:🔴 Fed 主席記者會 ★★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★★\n
- 時間以美東時區發布，Apple 行事曆會自動換算台灣時間
- 。\n來源網址：https://www.federalreserve.gov/monetarypolicy/fomcca
- lendars.htm
+DTEND;TZID=America/New_York:20270915T153000
+SUMMARY:🇺🇸 Fed 主席記者會 ★★★★★
+DESCRIPTION:來源：Federal Reserve\n重要程度：★★★★★\n記
+ 者會時間固定排在利率決議後 30 分鐘。\n時間以美東時
+ 區發布，Apple 行事曆會自動換算台灣時間。\n來源網址
+ ：https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
 URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🔴 Fed 主席記者會 ★★★★★
+DESCRIPTION:🇺🇸 Fed 主席記者會 ★★★★★
 TRIGGER:-PT60M
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🔴 Fed 主席記者會 ★★★★★
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:946b6b063add065bbc7b89f075f8289373c4bdb1@roy-us-economic-calendar
-X-ROY-KEY:EXISTING:美國 FOMC 利率決議 / Statement
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20271027T140000
-DTEND;TZID=America/New_York:20271027T143000
-SUMMARY:美國 FOMC 利率決議 / Statement
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★\n時
- 間以美東時區發布，Apple 行事曆會自動換算台灣時間。
- \n來源網址：https://www.federalreserve.gov/monetarypolicy/fomccalen
- dars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:美國 FOMC 利率決議 / Statement
+DESCRIPTION:🇺🇸 Fed 主席記者會 ★★★★★
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:21798e22d6fc08e36dfa7bc010343e1362b62534@roy-us-economic-calendar
 X-ROY-KEY:FOMC
-DTSTAMP:20260713T112718Z
+DTSTAMP:20260713T121214Z
 DTSTART;TZID=America/New_York:20271027T140000
 DTEND;TZID=America/New_York:20271027T143000
-SUMMARY:🔴 FOMC 利率決議 ★★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★★\n
- 時間以美東時區發布，Apple 行事曆會自動換算台灣時間
- 。\n來源網址：https://www.federalreserve.gov/monetarypolicy/fomcca
- lendars.htm
+SUMMARY:🇺🇸 FOMC 利率決議 ★★★★★
+DESCRIPTION:來源：Federal Reserve\n重要程度：★★★★★\n僅
+ 使用已核對的聯準會會議結束日。\n時間以美東時區發
+ 布，Apple 行事曆會自動換算台灣時間。\n來源網址：http
+ s://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
 URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🔴 FOMC 利率決議 ★★★★★
+DESCRIPTION:🇺🇸 FOMC 利率決議 ★★★★★
 TRIGGER:-PT60M
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🔴 FOMC 利率決議 ★★★★★
+DESCRIPTION:🇺🇸 FOMC 利率決議 ★★★★★
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:1e99347973e401e7d55c9e2f6f8fe0d39ef71b7a@roy-us-economic-calendar
 X-ROY-KEY:FOMC_PRESS
-DTSTAMP:20260713T112718Z
+DTSTAMP:20260713T121214Z
 DTSTART;TZID=America/New_York:20271027T143000
-DTEND;TZID=America/New_York:20271027T150000
-SUMMARY:🔴 Fed 主席記者會 ★★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★★\n
- 時間以美東時區發布，Apple 行事曆會自動換算台灣時間
- 。\n來源網址：https://www.federalreserve.gov/monetarypolicy/fomcca
- lendars.htm
+DTEND;TZID=America/New_York:20271027T153000
+SUMMARY:🇺🇸 Fed 主席記者會 ★★★★★
+DESCRIPTION:來源：Federal Reserve\n重要程度：★★★★★\n記
+ 者會時間固定排在利率決議後 30 分鐘。\n時間以美東時
+ 區發布，Apple 行事曆會自動換算台灣時間。\n來源網址
+ ：https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
 URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🔴 Fed 主席記者會 ★★★★★
+DESCRIPTION:🇺🇸 Fed 主席記者會 ★★★★★
 TRIGGER:-PT60M
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🔴 Fed 主席記者會 ★★★★★
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:51e23db969f5baa4fd34df493b689785259242dc@roy-us-economic-calendar
-X-ROY-KEY:EXISTING:美國 FOMC 利率決議 / Statement
-DTSTAMP:20260713T112718Z
-DTSTART;TZID=America/New_York:20271208T140000
-DTEND;TZID=America/New_York:20271208T143000
-SUMMARY:美國 FOMC 利率決議 / Statement
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★\n時
- 間以美東時區發布，Apple 行事曆會自動換算台灣時間。
- \n來源網址：https://www.federalreserve.gov/monetarypolicy/fomccalen
- dars.htm
-URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:美國 FOMC 利率決議 / Statement
+DESCRIPTION:🇺🇸 Fed 主席記者會 ★★★★★
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:d2e095d087683a6f31355dd3d19b38eca19ec959@roy-us-economic-calendar
 X-ROY-KEY:FOMC
-DTSTAMP:20260713T112718Z
+DTSTAMP:20260713T121214Z
 DTSTART;TZID=America/New_York:20271208T140000
 DTEND;TZID=America/New_York:20271208T143000
-SUMMARY:🔴 FOMC 利率決議 ★★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★★\n
- 時間以美東時區發布，Apple 行事曆會自動換算台灣時間
- 。\n來源網址：https://www.federalreserve.gov/monetarypolicy/fomcca
- lendars.htm
+SUMMARY:🇺🇸 FOMC 利率決議 ★★★★★
+DESCRIPTION:來源：Federal Reserve\n重要程度：★★★★★\n僅
+ 使用已核對的聯準會會議結束日。\n時間以美東時區發
+ 布，Apple 行事曆會自動換算台灣時間。\n來源網址：http
+ s://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
 URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🔴 FOMC 利率決議 ★★★★★
+DESCRIPTION:🇺🇸 FOMC 利率決議 ★★★★★
 TRIGGER:-PT60M
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🔴 FOMC 利率決議 ★★★★★
+DESCRIPTION:🇺🇸 FOMC 利率決議 ★★★★★
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:c741f8aa4072d97940f7d1252b0f6ef411c30976@roy-us-economic-calendar
 X-ROY-KEY:FOMC_PRESS
-DTSTAMP:20260713T112718Z
+DTSTAMP:20260713T121214Z
 DTSTART;TZID=America/New_York:20271208T143000
-DTEND;TZID=America/New_York:20271208T150000
-SUMMARY:🔴 Fed 主席記者會 ★★★★★
-DESCRIPTION:來源：Existing calendar\n重要程度：★★★★★\n
- 時間以美東時區發布，Apple 行事曆會自動換算台灣時間
- 。\n來源網址：https://www.federalreserve.gov/monetarypolicy/fomcca
- lendars.htm
+DTEND;TZID=America/New_York:20271208T153000
+SUMMARY:🇺🇸 Fed 主席記者會 ★★★★★
+DESCRIPTION:來源：Federal Reserve\n重要程度：★★★★★\n記
+ 者會時間固定排在利率決議後 30 分鐘。\n時間以美東時
+ 區發布，Apple 行事曆會自動換算台灣時間。\n來源網址
+ ：https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
 URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🔴 Fed 主席記者會 ★★★★★
+DESCRIPTION:🇺🇸 Fed 主席記者會 ★★★★★
 TRIGGER:-PT60M
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🔴 Fed 主席記者會 ★★★★★
+DESCRIPTION:🇺🇸 Fed 主席記者會 ★★★★★
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
